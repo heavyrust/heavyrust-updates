@@ -1,5 +1,5 @@
 ﻿{
-    "baseUrl":  "https://raw.githubusercontent.com/HeavyRust266/heavyrust-updates/main/files",
+    "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
                       "path":  "BepInEx/plugins/HeavyRustBooster.dll",
@@ -12,5 +12,5 @@
                       "hash":  "108e21e8dae50f3c69e0a71e97fe012cf9cac558554d18f71eeb4f02ef53ae37"
                   }
               ],
-    "version":  "1.0.2"
+    "version":  "1.0.3"
 }

@@ -3,8 +3,8 @@
     "files":  [
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  564736,
-                      "hash":  "a71e6efcb305d6a4f033a56bb819b85abb260fcac113e68ad1fc5ffc718b220d"
+                      "size":  574464,
+                      "hash":  "53f68bdd7d8b7185ee22838a548550614e770b1b8fbf61b9bfd4fb75e2d7e343"
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustBooster.dll",
@@ -17,5 +17,5 @@
                       "hash":  "3fe7a42a811d8096669e58492febaa3eeb3e45ebf1d7a50e2d41bb5b466f3ade"
                   }
               ],
-    "version":  "1.0.6"
+    "version":  "1.0.7"
 }

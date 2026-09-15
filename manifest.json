@@ -8,8 +8,8 @@
                   },
                   {
                       "path":  "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
-                      "size":  31232,
-                      "hash":  "5ab3b487729e7b5f15de3409cfae7e9c35abb06e38482991fb0828a99c19c03b"
+                      "size":  31744,
+                      "hash":  "1be4f62544fe507a7f3bb8f0c94c0b540459107c28fc495169cc2b956a7829ce"
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustBooster.dll",
@@ -22,5 +22,5 @@
                       "hash":  "3fe7a42a811d8096669e58492febaa3eeb3e45ebf1d7a50e2d41bb5b466f3ade"
                   }
               ],
-    "version":  "1.0.23"
+    "version":  "1.0.24"
 }

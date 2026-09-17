@@ -3,8 +3,8 @@
     "files":  [
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  607744,
-                      "hash":  "2061b16078fba70ffe615f0e3edbaa5ac973fd118987acc8fa2a458b2278e2e8"
+                      "size":  608768,
+                      "hash":  "4b8ce073cc92ff13602ffd43776738500d1f5e4c2d1105ae8bb7af4d81711f4d"
                   },
                   {
                       "path":  "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
@@ -18,9 +18,9 @@
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustCore.dll",
-                      "size":  9728,
-                      "hash":  "f381a81c993e60327f8f72fe979c02815b639a6f2c1601dcce04e89762077ea1"
+                      "size":  11776,
+                      "hash":  "8fa67b76635ee62e940e8a47a2e48a48e22cc343a7d8b95e0fe7947385e529dd"
                   }
               ],
-    "version":  "1.0.29"
+    "version":  "1.0.30"
 }

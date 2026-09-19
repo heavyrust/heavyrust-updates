@@ -2,9 +2,9 @@
     "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
-                      "path":  "HeavyRustLauncher.exe",
-                      "size":  609280,
-                      "hash":  "970a5b8009d994e610d1950ffadc1afb673b2ba0d1902924217ff2e58d13a8b7"
+                      "path":  "steam_appid.txt",
+                      "size":  8,
+                      "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1"
                   },
                   {
                       "path":  "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
@@ -14,7 +14,7 @@
                   {
                       "path":  "BepInEx/plugins/HeavyRustBooster.dll",
                       "size":  15360,
-                      "hash":  "d08301180de522072695d261489b5e5b8969e779d569d990c8c87cf2a55b8314"
+                      "hash":  "11c640032a14fd6eb4f96d3775d17aac87b56cd0653a1162320200613e4a6d75"
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustCore.dll",
@@ -22,5 +22,5 @@
                       "hash":  "c1feeb8acde42a9484248f1bfe89f089cf1e30408f9dd6d5cc221d6afa7f2f5b"
                   }
               ],
-    "version":  "1.0.33"
+    "version":  "1.0.34"
 }

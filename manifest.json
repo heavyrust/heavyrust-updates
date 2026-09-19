@@ -18,9 +18,9 @@
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustCore.dll",
-                      "size":  9728,
-                      "hash":  "c1feeb8acde42a9484248f1bfe89f089cf1e30408f9dd6d5cc221d6afa7f2f5b"
+                      "size":  14848,
+                      "hash":  "bdd1c070d678ab5dcd7941d69fe770bdb9ddb56a6e91bc912d20869f2dbffc95"
                   }
               ],
-    "version":  "1.0.34"
+    "version":  "1.0.35"
 }

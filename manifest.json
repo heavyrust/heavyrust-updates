@@ -8,9 +8,9 @@
                   },
                   {
                       "path":  "RustClient_Data/Plugins/x86_64/HeavyRustBooster.dll",
-                      "size":  22016,
-                      "hash":  "75725382d91e9c8d72dfd0c7420611a3346b7ee087dbc8944eaae3a3dc389d4e"
+                      "size":  22528,
+                      "hash":  "a2af2ab655437155bcfd2c15cdee2aca6534dff2f305287c5dbcbe1f08921e15"
                   }
               ],
-    "version":  "1.0.42"
+    "version":  "1.0.43"
 }

@@ -5,22 +5,7 @@
                       "path":  "steam_appid.txt",
                       "size":  8,
                       "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1"
-                  },
-                  {
-                      "path":  "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
-                      "size":  75776,
-                      "hash":  "d77b1d354f74db1602ed4dc10b4f0ec204387e483672cd5b66a65eda223930d1"
-                  },
-                  {
-                      "path":  "BepInEx/plugins/HeavyRustBooster.dll",
-                      "size":  15360,
-                      "hash":  "0932bb9eea398e09b01b9e0cd4b744be4a25e333cb45aeebbf2d94810682de33"
-                  },
-                  {
-                      "path":  "BepInEx/plugins/HeavyRustCore.dll",
-                      "size":  19456,
-                      "hash":  "da3f525a77d43ce095f80eb12cfb2a894a428005a03dbc27f97b70fc0100a234"
                   }
               ],
-    "version":  "1.0.38"
+    "version":  "1.0.39"
 }

@@ -1,26 +1,16 @@
 ﻿{
+    "version":  "1.0.45",
     "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
                       "path":  "steam_appid.txt",
-                      "size":  8,
-                      "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1"
+                      "hash":  "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086",
+                      "size":  6
                   },
                   {
-                      "path":  "doorstop_config.ini",
-                      "size":  1861,
-                      "hash":  "58875944b22a048abd650fd47a93eaf641d46e77fc2b0ce883205afd83a91949"
-                  },
-                  {
-                      "path":  "winhttp.dll",
-                      "size":  24576,
-                      "hash":  "7e90398dd7154b41f76e0524aedb795a7bcbe2ed9a14e4ceee214235aa04e442"
-                  },
-                  {
-                      "path":  "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
-                      "size":  36352,
-                      "hash":  "5ed71d26c9997ea68e77aa84d5e3d4fcd983bbccb47a837caf79711d9fcd02b9"
+                      "path":  "HeavyRustLauncher.exe",
+                      "hash":  "307736a896e601ef757d4f891c0597dc5cb8c3041e169ba99d6135d34f42a403",
+                      "size":  597504
                   }
-              ],
-    "version":  "1.0.44"
+              ]
 }

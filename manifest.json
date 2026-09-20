@@ -1,4 +1,4 @@
-﻿{
+{
     "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
@@ -18,9 +18,9 @@
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustCore.dll",
-                      "size":  16384,
-                      "hash":  "2d4917534351671fe6b2316bc580fc04eaeb3d97557d8b050d3d5c35cbd25586"
+                      "size":  19456,
+                      "hash":  "da3f525a77d43ce095f80eb12cfb2a894a428005a03dbc27f97b70fc0100a234"
                   }
               ],
-    "version":  "1.0.37"
+    "version":  "1.0.38"
 }

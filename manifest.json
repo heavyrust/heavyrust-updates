@@ -8,12 +8,12 @@
                   },
                   {
                       "path":  "doorstop_config.ini",
-                      "size":  0,
+                      "size":  1861,
                       "hash":  "58875944b22a048abd650fd47a93eaf641d46e77fc2b0ce883205afd83a91949"
                   },
                   {
                       "path":  "winhttp.dll",
-                      "size":  0,
+                      "size":  24576,
                       "hash":  "7e90398dd7154b41f76e0524aedb795a7bcbe2ed9a14e4ceee214235aa04e442"
                   },
                   {

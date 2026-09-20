@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "1.0.45",
+    "version":  "1.0.46",
     "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
@@ -8,9 +8,19 @@
                       "size":  6
                   },
                   {
+                      "path":  "RustClient_Data/Plugins/x86_64/steam_appid.txt",
+                      "hash":  "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086",
+                      "size":  6
+                  },
+                  {
+                      "path":  "update_launcher.bat",
+                      "hash":  "f7c7a9709eaa89fcb1ff076d8876adc6948af1de3c727e61c0ce4bb678f74f61",
+                      "size":  1948
+                  },
+                  {
                       "path":  "HeavyRustLauncher.exe",
-                      "hash":  "307736a896e601ef757d4f891c0597dc5cb8c3041e169ba99d6135d34f42a403",
-                      "size":  597504
+                      "hash":  "fe2a7546b7b014cac58315d72bd406a516e564f3004c6fab50271a613d8d8df7",
+                      "size":  598016
                   }
               ]
 }

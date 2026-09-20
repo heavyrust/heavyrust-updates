@@ -5,7 +5,12 @@
                       "path":  "steam_appid.txt",
                       "size":  8,
                       "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1"
+                  },
+                  {
+                      "path":  "HeavyBooster.exe",
+                      "size":  23552,
+                      "hash":  "2427d27a8978c31de3ec86f9bc749c84df63ece4fdd025e6275c499a87b6969f"
                   }
               ],
-    "version":  "1.0.39"
+    "version":  "1.0.40"
 }

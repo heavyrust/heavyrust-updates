@@ -7,10 +7,20 @@
                       "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1"
                   },
                   {
-                      "path":  "RustClient_Data/Plugins/x86_64/HeavyRustBooster.dll",
-                      "size":  22528,
-                      "hash":  "a2af2ab655437155bcfd2c15cdee2aca6534dff2f305287c5dbcbe1f08921e15"
+                      "path":  "doorstop_config.ini",
+                      "size":  0,
+                      "hash":  "58875944b22a048abd650fd47a93eaf641d46e77fc2b0ce883205afd83a91949"
+                  },
+                  {
+                      "path":  "winhttp.dll",
+                      "size":  0,
+                      "hash":  "7e90398dd7154b41f76e0524aedb795a7bcbe2ed9a14e4ceee214235aa04e442"
+                  },
+                  {
+                      "path":  "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+                      "size":  36352,
+                      "hash":  "5ed71d26c9997ea68e77aa84d5e3d4fcd983bbccb47a837caf79711d9fcd02b9"
                   }
               ],
-    "version":  "1.0.43"
+    "version":  "1.0.44"
 }

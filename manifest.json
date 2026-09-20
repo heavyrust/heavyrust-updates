@@ -1,16 +1,16 @@
-{
+﻿{
     "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
                       "path":  "steam_appid.txt",
-                      "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1",
-                      "size":  8
+                      "size":  8,
+                      "hash":  "c5165a706ce643d2937a3ae0977566edc81e40d6dff858ce5a6c1284ba465dc1"
                   },
                   {
                       "path":  "RustClient_Data/Plugins/x86_64/HeavyRustBooster.dll",
-                      "hash":  "0d376b92627c520133c37a2d3d933ce556a6652cc05d58adf1554b9fe0c6ece6",
-                      "size":  15872
+                      "size":  22016,
+                      "hash":  "75725382d91e9c8d72dfd0c7420611a3346b7ee087dbc8944eaae3a3dc389d4e"
                   }
               ],
-    "version":  "1.0.41"
+    "version":  "1.0.42"
 }

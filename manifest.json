@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "1.0.50",
+    "version":  "1.0.51",
     "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
     "files":  [
                   {
@@ -19,8 +19,8 @@
                   },
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "hash":  "8e047cc1a2c7c68bdf98e247dbd523385ff4db47da5d65b199dd8834e7774b15",
-                      "size":  2077696
+                      "hash":  "76ebb28805f6bdbc3c509eeb069a3e2a5b0bbd7295f8014f4932e9655acc92f6",
+                      "size":  2076160
                   }
               ]
 }

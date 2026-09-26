@@ -17,15 +17,10 @@
                       "hash":  "f7c7a9709eaa89fcb1ff076d8876adc6948af1de3c727e61c0ce4bb678f74f61"
                   },
                   {
-                      "path":  "HeavyRustBooster.exe",
-                      "size":  26112,
-                      "hash":  "1a33a96eb95d64a9fe21e8fe2cf0cbfea0711f5c6cdad180a620213d17fccba6"
-                  },
-                  {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  2079744,
-                      "hash":  "a53ecd7a0c6cace8a9a4a864aabb86afc45815b555261d52c6c260d561e8ddec"
+                      "size":  2078208,
+                      "hash":  "df214cac23a7d92fb40fd4ba3fa0860cb508bac4bbd793f4785a3438b3f45653"
                   }
               ],
-    "version":  "1.0.62"
+    "version":  "1.0.63"
 }

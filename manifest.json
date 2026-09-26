@@ -18,9 +18,9 @@
                   },
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  2078208,
-                      "hash":  "b5b2ea302cabfcbba8c5515f63a7c96decc6d085d949ce7ada9c2a95a3aa4ef0"
+                      "size":  2079744,
+                      "hash":  "97c108cf360dfff7a65dd460c39c9eb77193806dd83a2914e59e2225e853d0ba"
                   }
               ],
-    "version":  "1.0.60"
+    "version":  "1.0.61"
 }

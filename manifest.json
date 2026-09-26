@@ -18,9 +18,14 @@
                   },
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  2078720,
-                      "hash":  "e744ba5f7dbfa8b33944ebbd64e1ddedb37af5ed738486ce7d7e91d194786ca8"
+                      "size":  2077696,
+                      "hash":  "8dde741e77e6d9509261c8d2e7868dacbd182676f612e5fa31814c4873780aad"
+                  },
+                  {
+                      "path":  "BepInEx/plugins/HeavyRustBooster.dll",
+                      "size":  26112,
+                      "hash":  "aba7f9a11722214c3fdcec74906e072587f7993cad686e7a5036008849aec19e"
                   }
               ],
-    "version":  "1.0.58"
+    "version":  "1.0.59"
 }

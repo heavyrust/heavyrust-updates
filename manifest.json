@@ -18,14 +18,24 @@
                   },
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  2078208,
-                      "hash":  "df214cac23a7d92fb40fd4ba3fa0860cb508bac4bbd793f4785a3438b3f45653"
+                      "size":  2080256,
+                      "hash":  "a398c97fce88d7eea0a1f972d23e04d9d84c1cd4c9c4d26eae5d267fff517f02"
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustBooster.dll",
                       "size":  19968,
                       "hash":  "abd92e9a4443347965da055f280a8833f20469230ca7627eb4253566dd5bfa21"
+                  },
+                  {
+                      "path":  "doorstop_config.ini",
+                      "size":  1684,
+                      "hash":  "b3c1d522b23ca3f084d6005b1abe40b063b44371bd5b72e52c818bf10391b5b7"
+                  },
+                  {
+                      "path":  "winhttp.dll",
+                      "size":  26112,
+                      "hash":  "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
                   }
               ],
-    "version":  "1.0.66"
+    "version":  "1.0.67"
 }

@@ -1,16 +1,16 @@
    {
     "baseUrl": "https://cdn.jsdelivr.net/gh/heavyrust/heavyrust-updates@main/files",
-    "version": "1.0.70",
+    "version": "1.0.71",
     "files": [
         {
             "path": "HeavyRustLauncher.exe",
-            "size": 2085888,
-            "hash": "a3855b65ccabb5fda844f353b62533045f89fa9e61240702ef958e3e10efef1f"
+            "size": 2086400,
+            "hash": "3c02a66a6731c2f6cc5dea377a02074d45224e78b4f72b54d69d81b7524077d3"
         },
         {
             "path": "BepInEx/plugins/HeavyRustBooster.dll",
             "size": 19968,
-            "hash": "abd92e9a4443347965da055f280a8833f20469230ca7627eb4253566dd5bfa21"
+            "hash": "e5a79ed9baa217495df1b6d93c83c2d5b5c4f9ecf01ee196daa85f257d2260c6"
         },
         {
             "path": "update_launcher.bat",
@@ -29,13 +29,13 @@
         },
         {
             "path": "steam_appid.txt",
-            "size": 6,
-            "hash": "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086"
+            "size": 3,
+            "hash": "ddfe0e8d462af661f81db36589c39882dc0f2330785b5d80cd34f2f520ad618f"
         },
         {
             "path": "RustClient_Data/Plugins/x86_64/steam_appid.txt",
-            "size": 6,
-            "hash": "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086"
+            "size": 3,
+            "hash": "ddfe0e8d462af661f81db36589c39882dc0f2330785b5d80cd34f2f520ad618f"
         }
     ]
 }

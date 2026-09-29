@@ -1,14 +1,14 @@
-﻿@echo off
+@echo off
 chcp 65001 >nul
-title РћР±РЅРѕРІР»РµРЅРёРµ Heavy Rust Launcher
+title Обновление Heavy Rust Launcher
 echo ========================================================
-echo   РћР±РЅРѕРІР»РµРЅРёРµ Р»Р°СѓРЅС‡РµСЂР° Heavy Rust [SpaceWar AppID 480]
+echo   Обновление лаунчера Heavy Rust [SpaceWar AppID 480]
 echo ========================================================
-echo Р—Р°РєСЂС‹С‚РёРµ Р·Р°РїСѓС‰РµРЅРЅС‹С… РїСЂРѕС†РµСЃСЃРѕРІ Р»Р°СѓРЅС‡РµСЂР°...
+echo Закрытие запущенных процессов лаунчера...
 taskkill /f /im HeavyRustLauncher.exe >nul 2>&1
 timeout /t 1 /nobreak >nul
 
-echo РќР°СЃС‚СЂРѕР№РєР° SpaceWar (AppID 480)...
+echo Настройка SpaceWar (AppID 480)...
 attrib -h -r steam_appid.txt >nul 2>&1
 echo 480> steam_appid.txt
 if exist "RustClient_Data\Plugins\x86_64" (
@@ -16,19 +16,19 @@ if exist "RustClient_Data\Plugins\x86_64" (
     echo 480> "RustClient_Data\Plugins\x86_64\steam_appid.txt"
 )
 
-echo Р—Р°РіСЂСѓР·РєР° СЃРІРµР¶РµР№ РІРµСЂСЃРёРё Р»Р°СѓРЅС‡РµСЂР°...
-powershell -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; (New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files/HeavyRustLauncher.exe', 'HeavyRustLauncher.exe.tmp')"
+echo Загрузка свежей версии лаунчера (GitHub / VPS)...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $wc = New-Object Net.WebClient; try { $wc.DownloadFile('https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files/HeavyRustLauncher.exe', 'HeavyRustLauncher.exe.tmp') } catch { $wc.DownloadFile('http://170.168.112.205/updates/files/HeavyRustLauncher.exe', 'HeavyRustLauncher.exe.tmp') }"
 
 if exist "HeavyRustLauncher.exe.tmp" (
     attrib -h -r HeavyRustLauncher.exe >nul 2>&1
     del /f /q HeavyRustLauncher.exe >nul 2>&1
     move /y HeavyRustLauncher.exe.tmp HeavyRustLauncher.exe >nul 2>&1
-    echo [РЈРЎРџР•РЁРќРћ] Р›Р°СѓРЅС‡РµСЂ РѕР±РЅРѕРІР»РµРЅ!
+    echo [УСПЕШНО] Лаунчер обновлен!
 ) else (
-    echo [РћРЁРР‘РљРђ] РќРµ СѓРґР°Р»РѕСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ С„Р°Р№Р» Р»Р°СѓРЅС‡РµСЂР°.
+    echo [ОШИБКА] Не удалось загрузить файл лаунчера.
 )
 
-echo Р—Р°РїСѓСЃРє РѕР±РЅРѕРІР»РµРЅРЅРѕРіРѕ Р»Р°СѓРЅС‡РµСЂР°...
+echo Запуск обновленного лаунчера...
 start "" "HeavyRustLauncher.exe"
 timeout /t 2 >nul
 exit

@@ -13,13 +13,13 @@
                   },
                   {
                       "path":  "update_launcher.bat",
-                      "size":  1948,
-                      "hash":  "f7c7a9709eaa89fcb1ff076d8876adc6948af1de3c727e61c0ce4bb678f74f61"
+                      "size":  1738,
+                      "hash":  "379bc001ea97155fb50bdc7fb84fbf26174d91ef168ecdf2ea8b334402cd3313"
                   },
                   {
                       "path":  "HeavyRustLauncher.exe",
-                      "size":  2080256,
-                      "hash":  "a398c97fce88d7eea0a1f972d23e04d9d84c1cd4c9c4d26eae5d267fff517f02"
+                      "size":  2084352,
+                      "hash":  "b2e0a788cf2e23f00ec4883943406f5095b54d33ccea05980d6aace5b2d9a273"
                   },
                   {
                       "path":  "BepInEx/plugins/HeavyRustBooster.dll",
@@ -37,5 +37,5 @@
                       "hash":  "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
                   }
               ],
-    "version":  "1.0.67"
+    "version":  "1.0.68"
 }

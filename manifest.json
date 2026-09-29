@@ -1,41 +1,41 @@
-{
-    "baseUrl":  "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
-    "files":  [
-                  {
-                      "path":  "steam_appid.txt",
-                      "size":  6,
-                      "hash":  "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086"
-                  },
-                  {
-                      "path":  "RustClient_Data/Plugins/x86_64/steam_appid.txt",
-                      "size":  6,
-                      "hash":  "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086"
-                  },
-                  {
-                      "path":  "update_launcher.bat",
-                      "size":  1738,
-                      "hash":  "379bc001ea97155fb50bdc7fb84fbf26174d91ef168ecdf2ea8b334402cd3313"
-                  },
-                  {
-                      "path":  "HeavyRustLauncher.exe",
-                      "size":  2084352,
-                      "hash":  "b2e0a788cf2e23f00ec4883943406f5095b54d33ccea05980d6aace5b2d9a273"
-                  },
-                  {
-                      "path":  "BepInEx/plugins/HeavyRustBooster.dll",
-                      "size":  19968,
-                      "hash":  "abd92e9a4443347965da055f280a8833f20469230ca7627eb4253566dd5bfa21"
-                  },
-                  {
-                      "path":  "doorstop_config.ini",
-                      "size":  1684,
-                      "hash":  "b3c1d522b23ca3f084d6005b1abe40b063b44371bd5b72e52c818bf10391b5b7"
-                  },
-                  {
-                      "path":  "winhttp.dll",
-                      "size":  26112,
-                      "hash":  "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
-                  }
-              ],
-    "version":  "1.0.68"
+   {
+    "baseUrl": "https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files",
+    "version": "1.0.69",
+    "files": [
+        {
+            "path": "HeavyRustLauncher.exe",
+            "size": 2085376,
+            "hash": "67e6f9a1bf40adb0f268e07c292a5daaf37cbbb35cfae9ea82c343bed7e19c71"
+        },
+        {
+            "path": "BepInEx/plugins/HeavyRustBooster.dll",
+            "size": 19968,
+            "hash": "abd92e9a4443347965da055f280a8833f20469230ca7627eb4253566dd5bfa21"
+        },
+        {
+            "path": "update_launcher.bat",
+            "size": 1738,
+            "hash": "379bc001ea97155fb50bdc7fb84fbf26174d91ef168ecdf2ea8b334402cd3313"
+        },
+        {
+            "path": "doorstop_config.ini",
+            "size": 1684,
+            "hash": "b3c1d522b23ca3f084d6005b1abe40b063b44371bd5b72e52c818bf10391b5b7"
+        },
+        {
+            "path": "winhttp.dll",
+            "size": 26112,
+            "hash": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
+        },
+        {
+            "path": "steam_appid.txt",
+            "size": 6,
+            "hash": "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086"
+        },
+        {
+            "path": "RustClient_Data/Plugins/x86_64/steam_appid.txt",
+            "size": 6,
+            "hash": "dcca8466c5ea5e88abbbfd2e529ac70d974a997fc48a6cef1a221771e174c086"
+        }
+    ]
 }

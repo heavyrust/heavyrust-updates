@@ -16,8 +16,8 @@ if exist "RustClient_Data\Plugins\x86_64" (
     echo 480> "RustClient_Data\Plugins\x86_64\steam_appid.txt"
 )
 
-echo Загрузка свежей версии лаунчера (GitHub / VPS)...
-powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $wc = New-Object Net.WebClient; try { $wc.DownloadFile('https://raw.githubusercontent.com/heavyrust/heavyrust-updates/main/files/HeavyRustLauncher.exe', 'HeavyRustLauncher.exe.tmp') } catch { $wc.DownloadFile('http://170.168.112.205/updates/files/HeavyRustLauncher.exe', 'HeavyRustLauncher.exe.tmp') }"
+echo Загрузка свежей версии лаунчера с сервера VDS (5.83.140.94)...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $wc = New-Object Net.WebClient; $wc.DownloadFile('http://5.83.140.94/HeavyRustLauncher.exe', 'HeavyRustLauncher.exe.tmp')"
 
 if exist "HeavyRustLauncher.exe.tmp" (
     attrib -h -r HeavyRustLauncher.exe >nul 2>&1

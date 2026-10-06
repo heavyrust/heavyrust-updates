@@ -1,46 +1,2377 @@
 {
-  "version": "1.0.99",
-  "baseUrl": "http://5.83.140.94/updates/files",
-  "files": [
-    {
-      "path": "HeavyRustLauncher.exe",
-      "hash": "f89f7eab0fd037f363613043e9a67795c8235dc22664e98194f210d4082d79a1",
-      "size": 2072576
+    "version": "1.1.05",
+    "launcherVersion": "1.1.05",
+    "baseUrl": "http://5.83.140.94/updates/files/",
+    "package": {
+        "path": "HeavyMod_Package.zip",
+        "size": 116529991,
+        "hash": "6e6d72ccc527680783a2bc194b249468cf25617555dbe983550747fd03d8e174"
     },
-    {
-      "path": "version.dll",
-      "hash": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c",
-      "size": 26112
-    },
-    {
-      "path": "winhttp.dll",
-      "hash": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c",
-      "size": 26112
-    },
-    {
-      "path": "doorstop_config.ini",
-      "hash": "bc28065692666256e435f7083882f54455765e72c502adc5981a3fe49c0e59fd",
-      "size": 1682
-    },
-    {
-      "path": "update_launcher.bat",
-      "hash": "5a837d238383ac33c2c5deee66d0bac7829d659e7412e3583a5dfadccd9a541f",
-      "size": 1579
-    },
-    {
-      "path": "steam_appid.txt",
-      "hash": "ddfe0e8d462af661f81db36589c39882dc0f2330785b5d80cd34f2f520ad618f",
-      "size": 3
-    },
-    {
-      "path": "BepInEx/plugins/HeavyMod.dll",
-      "hash": "dddfdd3b3e2117459c260fab9d1103b0b4aafb99569b36a0efe7be2644c8c1d1",
-      "size": 45893120
-    },
-    {
-      "path": "BepInEx/config/net.rust.heavymod.cfg",
-      "hash": "4d6b5cd730e69baf748fc48e4371eb9019cc2dde6b408bd5e80d2c0d368520cd",
-      "size": 14454
-    }
-  ]
+    "files": [
+        {
+            "path": "BepInEx/config/BepInEx.cfg",
+            "size": 7614,
+            "hash": "80459797cf1a4c1a47e9d5df46260e69fccc999ff9ca57c925cbc4cc2f549735"
+        },
+        {
+            "path": "BepInEx/config/CBSafe.cfg",
+            "size": 6646,
+            "hash": "85c968ba711138633389c12e473b9b717bc0ae7ea42c73303cea7eb25e2edb23"
+        },
+        {
+            "path": "BepInEx/config/HeavyRust.cfg",
+            "size": 6,
+            "hash": "8aa318eb7eaa233aada0d332bec14cb6a631c8fda25deb2c7d4f402888f1b1e2"
+        },
+        {
+            "path": "BepInEx/config/net.rust.cbsafe.290.cfg",
+            "size": 14668,
+            "hash": "3e1fd6c4b4e7364225dd8d9754ef64d8faa89de2ce028d7ecde2c8a7aae85be2"
+        },
+        {
+            "path": "BepInEx/config/net.rust.heavymod.cfg",
+            "size": 14456,
+            "hash": "a23364a25171c1b6a7f2c8c7297786432d27508bdaa126458c966c64978a7e53"
+        },
+        {
+            "path": "BepInEx/core/0Harmony.dll",
+            "size": 264192,
+            "hash": "6c898933b52149e8bcf6722305c7e4d94add47c9e53b364096f91721624c0877"
+        },
+        {
+            "path": "BepInEx/core/AsmResolver.dll",
+            "size": 67584,
+            "hash": "64b50030b34654f12805ec4d2848551e431c5f0bcd65cd70d6fe2845f715fb12"
+        },
+        {
+            "path": "BepInEx/core/AsmResolver.DotNet.dll",
+            "size": 561664,
+            "hash": "045bcdf32427f9bd39bee2620c470372583935c8e89b360931e467dd191d46d1"
+        },
+        {
+            "path": "BepInEx/core/AsmResolver.PE.dll",
+            "size": 397824,
+            "hash": "6ba6d56bf5fd3dd18233b56606a7ed1d42b8c93977b5375716771bf13ea36a1e"
+        },
+        {
+            "path": "BepInEx/core/AsmResolver.PE.File.dll",
+            "size": 40960,
+            "hash": "8246433a1a6fb4c012c1814acee8a4ff24f3a4fac593569f6a1e343e68c9d8ee"
+        },
+        {
+            "path": "BepInEx/core/AssetRipper.CIL.dll",
+            "size": 45568,
+            "hash": "1eeff8d76dda5d65e5145ab0d43a3dac672e096e5692c47e0382ebb3c7c817f9"
+        },
+        {
+            "path": "BepInEx/core/AssetRipper.Primitives.dll",
+            "size": 29184,
+            "hash": "681ba26fd356d9263fdf6afeb1b8f8506802a9503ffa80c9d21e0c4a46743a28"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Core.dll",
+            "size": 138240,
+            "hash": "1d492eeecd40cd4feb7dc35aff7f08839928ac1637d4993bbde0060de36b7e0a"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Core.xml",
+            "size": 91631,
+            "hash": "6093581edd3f53f496d0ebdc1505199b3c88e7c8a965d506cf4305bc1173862a"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Preloader.Core.dll",
+            "size": 52736,
+            "hash": "1a2824268a24d3eca2931daa7b7b378d7338a542502bcf9e2261919095b1eb97"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Preloader.Core.xml",
+            "size": 16386,
+            "hash": "f7e68941a96a6bbb42237b428f0b38077ac139597ac24c7cbb51e661f51ae3f1"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Unity.Common.dll",
+            "size": 13824,
+            "hash": "1e15d7ada3416d9fecb4514377ca297783ac25877bd53e0fd7ddd32a6cd37369"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Unity.Common.xml",
+            "size": 1196,
+            "hash": "d3164c64d07fffbd4e5a28dd4a7201d4971bf15f5d471fc919d4707009fc9114"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll",
+            "size": 102912,
+            "hash": "46cf1ef802bdf8cb6587fc1e4d98f7af1073a60487b39a64e230e6f6e4c23aec"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Unity.IL2CPP.dll.config",
+            "size": 456,
+            "hash": "ea4436344d4cc4c29f3382655c99828ace3df659107cb2e6b985227027e48cd6"
+        },
+        {
+            "path": "BepInEx/core/BepInEx.Unity.IL2CPP.xml",
+            "size": 9726,
+            "hash": "9ff8fa972a053b2be0c5b6c0a7da9c2267d2dfb9656be353c07355b07a26ccf1"
+        },
+        {
+            "path": "BepInEx/core/Cpp2IL.Core.dll",
+            "size": 394240,
+            "hash": "a7ae866298472bfa5176c1b5b71adfa9fe6e2f1deef7b8d50f063c0e2c0ba258"
+        },
+        {
+            "path": "BepInEx/core/Disarm.dll",
+            "size": 139264,
+            "hash": "40e804c35369825884534734725d06831a534759478c8d9f3f908d80779a1a93"
+        },
+        {
+            "path": "BepInEx/core/dobby.dll",
+            "size": 205312,
+            "hash": "8015de7d867245a1095d13947a63763878e4cf5fd3d3089b63cc39200b055ded"
+        },
+        {
+            "path": "BepInEx/core/Gee.External.Capstone.dll",
+            "size": 295936,
+            "hash": "18f9cfbfd10b479143a46b3e417ccfce4a62d4c2770da9ed12d553a0b326302c"
+        },
+        {
+            "path": "BepInEx/core/Iced.dll",
+            "size": 1896448,
+            "hash": "f058c01321b4cdfc9b9151879e88e59571c8d0ba176fbcf95bc936a8f3d073ed"
+        },
+        {
+            "path": "BepInEx/core/Il2CppInterop.Common.dll",
+            "size": 41472,
+            "hash": "070e04f2276a8963a6d2a7eb52d43b644f3ae9aa3816c34541124d3862f1b37f"
+        },
+        {
+            "path": "BepInEx/core/Il2CppInterop.Generator.dll",
+            "size": 219648,
+            "hash": "95364bf2686f50d114784e482a0e78c472f6a649d07ea31a075328b2b756899d"
+        },
+        {
+            "path": "BepInEx/core/Il2CppInterop.HarmonySupport.dll",
+            "size": 26624,
+            "hash": "f7612ea2e5a4d473b771f34ee3b20cf32dc0c4ecea0185416474999a17fbcc07"
+        },
+        {
+            "path": "BepInEx/core/Il2CppInterop.Runtime.dll",
+            "size": 284672,
+            "hash": "65ab051a681c2c1e52df7596ff738be401aae72cff882ff18241cf54a3ea38a4"
+        },
+        {
+            "path": "BepInEx/core/LibCpp2IL.dll",
+            "size": 312320,
+            "hash": "dd3bd5417cac3fd203b906a90dbae6719136e61f43c2b4eed55f56242bb10a14"
+        },
+        {
+            "path": "BepInEx/core/Mono.Cecil.dll",
+            "size": 356864,
+            "hash": "769a59793d4b8885bbbfbc5aee8f57a0d4e34d275c56c60c03994309b87f67e9"
+        },
+        {
+            "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+            "size": 39424,
+            "hash": "61637f9940e5e336571cbf945be0f36d6d6050e06288df0f0232d93b26f0bde7"
+        },
+        {
+            "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+            "size": 89600,
+            "hash": "a5249a04ad8fd7dfd47e4d0a620aed0f7eb6051e1ddec102c541ca3e12f6e2a8"
+        },
+        {
+            "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+            "size": 24576,
+            "hash": "273292babd45f9f34de5054bd9cdfe1d859a7dbf6f4ad5974fe4ead70698ed5b"
+        },
+        {
+            "path": "BepInEx/core/MonoMod.Backports.dll",
+            "size": 29184,
+            "hash": "cdd6e9f7bcdb98d2c002f63bfbe85ae80ea36261190a741e64283d769a6c6502"
+        },
+        {
+            "path": "BepInEx/core/MonoMod.ILHelpers.dll",
+            "size": 4096,
+            "hash": "0081403bdcef3340f78c7ccded0be6ae0507b397ee8b9980b44f01bf9f93aed1"
+        },
+        {
+            "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+            "size": 112640,
+            "hash": "1b3d55f53cb9f9f2550daed4dfd300b247d71698a0ace82bc7b9ff38d563594f"
+        },
+        {
+            "path": "BepInEx/core/MonoMod.Utils.dll",
+            "size": 193024,
+            "hash": "72a5b4249985873d7ecb160cbbed7a1e6540a38ee7618c72c64b9cb068c1438a"
+        },
+        {
+            "path": "BepInEx/core/SemanticVersioning.dll",
+            "size": 34816,
+            "hash": "a5b57607225a0ebde049e93469f49e5b2d07a7d602a03864ce3a72ccf57103a2"
+        },
+        {
+            "path": "BepInEx/core/StableNameDotNet.dll",
+            "size": 28160,
+            "hash": "280373b93a140395489d714703ac61f8d02c7aa07ac6e34024f8f0e26901325a"
+        },
+        {
+            "path": "BepInEx/core/WasmDisassembler.dll",
+            "size": 22528,
+            "hash": "f837036e0db02d6f3dde76de573fd9a847a1175d61818607e40c46952f5c66c0"
+        },
+        {
+            "path": "BepInEx/interop/__Generated.dll",
+            "size": 4096,
+            "hash": "9bf594ae382a47c3d1e5c8bfc4874ca105f06a849007e79fae33b083263ea868"
+        },
+        {
+            "path": "BepInEx/interop/Assembly-CSharp-firstpass.dll",
+            "size": 20435968,
+            "hash": "1a04126602d613b32fa245b215c7d22549b58603c3e08a06df45c0538db465ad"
+        },
+        {
+            "path": "BepInEx/interop/Assembly-CSharp.dll",
+            "size": 74498560,
+            "hash": "0251e836c2dac0bf1a828af489a1b59391e4bbd91d97bdf26733d090c76c8ead"
+        },
+        {
+            "path": "BepInEx/interop/assembly-hash.txt",
+            "size": 32,
+            "hash": "610e98a4bac5c52e5e7121a209267b8c1a06283a3b3a9bbbf8c0cbb46ec2c2ee"
+        },
+        {
+            "path": "BepInEx/interop/Azure.Core.dll",
+            "size": 394240,
+            "hash": "564cfb40ca2181ee9e7c581ed892ed8fac1fa7cbfb6896d2dc02f3e6dfc2d6f3"
+        },
+        {
+            "path": "BepInEx/interop/Azure.Identity.dll",
+            "size": 187392,
+            "hash": "cab7a2734668d04cc6c964e7ced4de14f1e98607a1896c39bd1adaef2ced800b"
+        },
+        {
+            "path": "BepInEx/interop/Azure.Storage.Blobs.dll",
+            "size": 581120,
+            "hash": "4aa18cd527f16ed5d4eee04e03a6975490561acba3f3a9098e213b40a2c4118a"
+        },
+        {
+            "path": "BepInEx/interop/Azure.Storage.Common.dll",
+            "size": 39936,
+            "hash": "d08bbe56956d6cd722c2c89ffee3e68908636447f82ac2d72cb5746dbd6cb006"
+        },
+        {
+            "path": "BepInEx/interop/Cinemachine.dll",
+            "size": 1255424,
+            "hash": "54789a2ef1215e9da379d8e7deb913d2210d4f25d0a8aecb44ffb25e5619ee67"
+        },
+        {
+            "path": "BepInEx/interop/CurvedTextMeshPro.dll",
+            "size": 22528,
+            "hash": "26b2386d1a19762bcbec324cf307d6b494e71f3a900efd1bd06bdc008e83136f"
+        },
+        {
+            "path": "BepInEx/interop/DelaunayER.dll",
+            "size": 10240,
+            "hash": "afc19bc7c97dae0fe20bac8a0b80c6ec0d1ebcf6cff53647493cbf0f5aa36ce5"
+        },
+        {
+            "path": "BepInEx/interop/DnsClient.dll",
+            "size": 312832,
+            "hash": "3c831a725217473fe64a5532a3c0cb31c7063250982c4eca85bd8bc25d8d7244"
+        },
+        {
+            "path": "BepInEx/interop/EasyRoads3Dv3.dll",
+            "size": 2654208,
+            "hash": "f545501cc109b3d840784bcad88f4afdc5323f54a107917f1e210ea4a8cb62a0"
+        },
+        {
+            "path": "BepInEx/interop/EZhex1991.EZSoftBone.dll",
+            "size": 158720,
+            "hash": "5b6eb40eea791b6e4657468959b30ece8a5d20b81eaf26f517077ee1d8bbc4ca"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.BurstCloth.dll",
+            "size": 113152,
+            "hash": "e420091a5a5889de6a77559be471af7f9394a1d5391af52549d41154f1f801a7"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Console.dll",
+            "size": 138240,
+            "hash": "57114e08efa89219ddbcab9566b037c02a2b292768a3d45a95e4423eb0ff303e"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Flexbox.dll",
+            "size": 305664,
+            "hash": "2c63a8a0c72f7a7f88457fb67f3805365b21d0cf8b1d196fd108f4b022b31604"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.GoogleSheets.dll",
+            "size": 31744,
+            "hash": "919563ab6a21f78a75c85e1cd31fad28aee5aa5c3e238972723c49e032aec054"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Input.dll",
+            "size": 102400,
+            "hash": "7fac7dc810f8d0f1e3e10cb36a7567b5b9ab0f562f055d42112bb5edadce8256"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Network.dll",
+            "size": 801792,
+            "hash": "7f356a03763e5f00310ed1e169363c47487760133d2de5cff6ea92b5a796346e"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Nexus.dll",
+            "size": 386048,
+            "hash": "58125c670a5857937c811398636348f7f6e6558c3f0275fcad5048de343c586d"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Ping.dll",
+            "size": 109056,
+            "hash": "7b87a168c2aef948353308e13215de9a61615b98720e956298f0fbf821bb0c2a"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Raknet.dll",
+            "size": 128512,
+            "hash": "ae88a20b780f9a9570ebc302f41244b0f9f4ba88eaaab941c00cf93eca099499"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Rcon.dll",
+            "size": 114688,
+            "hash": "1aed2aeb780b55e4cc5546f974bf7823b72cd682d09a5fbfc574267218cc76d6"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Skeleton.dll",
+            "size": 56832,
+            "hash": "0c91961a1652771ca934d898cb0d7b8517f667add916ee0547ac9e91c71c900f"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Sqlite.dll",
+            "size": 77824,
+            "hash": "7ec8b840d1a3654b9bada9019c9014e6f771d3c6c97de1e3da1d4b525bb18c90"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.SteamNetworking.dll",
+            "size": 92672,
+            "hash": "256cb23d973c0e06f2fbf2a79ae8de8bf94fb526cc91ba55fb3ba7bde345d91b"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Steamworks.Win64.dll",
+            "size": 774656,
+            "hash": "b3ab13e8ceac8e3c37d0fb0956fa590b6b70a08011b593fa8c173975341d299f"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.System.dll",
+            "size": 479744,
+            "hash": "e3b3c448e9c6b6cc5c911e8494ca2c64661b8b1da648be5f9a884f6bf08943db"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.Unity.dll",
+            "size": 602112,
+            "hash": "c14367eee3ce299682379e5302c723b1a6a0a652b0b2ad6acbaab921f0004c46"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.UnityEngine.dll",
+            "size": 1281536,
+            "hash": "c46dd56512b7f2b9f41f679f1aff52f9850f435be1341b2622eef3770b85ef33"
+        },
+        {
+            "path": "BepInEx/interop/Facepunch.UnwrapBaker.Settings.dll",
+            "size": 15872,
+            "hash": "c9f3771fa9ad2ceb5f237b862c4d3d1d2c150d26c33ed5a50b2be1d747116f7d"
+        },
+        {
+            "path": "BepInEx/interop/Fleck.dll",
+            "size": 96768,
+            "hash": "f8a0c381a4250b4ff1b98856b89d2f1e1bd37dab652fc66db0fec509ced59619"
+        },
+        {
+            "path": "BepInEx/interop/GA.dll",
+            "size": 186880,
+            "hash": "8e772125613d72364047c3eeb7dd17a167b5128c176b00c2cf4f0f8445d71e76"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppI18N.CJK.dll",
+            "size": 284160,
+            "hash": "20c5b62b41541a32e2f05307f06efdfff1cfadbe7b3c4846cf288ca5a0375fe7"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppI18N.dll",
+            "size": 113152,
+            "hash": "c923fa34af2e58571cc4aaa015a94c4cc3ee3e0a5850f765fd3dbe7971d4992c"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppI18N.MidEast.dll",
+            "size": 31232,
+            "hash": "301a50730e88a68f598426ff412137bd73970c69852ebc4148230bf7447e8127"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppI18N.Other.dll",
+            "size": 61952,
+            "hash": "e4c6a8394ec97ec3b7c7d1f7afeae65ec9cbbb5f4139c2203e873d63ae597d39"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppI18N.Rare.dll",
+            "size": 134656,
+            "hash": "d1e02c9c347677d5e879be7402035f120ed39ad93d797c5388c9a02355c285a3"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppI18N.West.dll",
+            "size": 58880,
+            "hash": "c2b8bbbe174cfe97c1c3c63d8f9471d3be9bf25df6216487bee3dcbe657edeba"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppMicrosoft.Bcl.AsyncInterfaces.dll",
+            "size": 22016,
+            "hash": "bb202b2bbad3809e080035526a9703f8c24ba6f5452d2310ba06404a911fa54f"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppMicrosoft.Identity.Client.dll",
+            "size": 1744384,
+            "hash": "1bc20c72f5393bc96bfd19bb05172f492fbe1b5277e62e32e73e316e66a855ce"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppMicrosoft.Identity.Client.Extensions.Msal.dll",
+            "size": 79360,
+            "hash": "d862f3e8fb509c8871af1f81eddfb4bc97453e35d9dabc375ae0043238294af5"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppMicrosoft.IdentityModel.Abstractions.dll",
+            "size": 11776,
+            "hash": "13f561d8d334d503b7cd731a4b0e4cd281f69b37a6f0580bc8fb12f2b76128da"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppMono.Data.Sqlite.dll",
+            "size": 161280,
+            "hash": "55644651f8dce76feb57d23573d13857fe5c26147ae7caad3a9d64064a0f9f07"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppMono.Security.dll",
+            "size": 230912,
+            "hash": "dea13b41d496ee108886cbb43eb2679d8be97ac7f5f5915c31228c43ff6fc4a4"
+        },
+        {
+            "path": "BepInEx/interop/Il2Cppmscorlib.dll",
+            "size": 4806144,
+            "hash": "4357c4be2f858fedf821c923fa212059e80000cbbe6a007288b55def94a35685"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Configuration.dll",
+            "size": 8192,
+            "hash": "41ce2681c578c54d141b85d7d9978c5bfdea2e0a91b3495dd2967864f07fc134"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Core.dll",
+            "size": 1177600,
+            "hash": "21c13409c8f58abc74b7a97e10ae411bfed09e18bd92265acf7afaab10adf589"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Data.dll",
+            "size": 1063936,
+            "hash": "81ad8aa26afc5a57cefa8d6556fb5989ccf1e6bfedcc7a5fd9a9bb73d9a0762a"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Diagnostics.DiagnosticSource.dll",
+            "size": 136192,
+            "hash": "31378a7e358e18a5c6baf8ec6829293134b86c2c2ecc4db5fa730f46f702254a"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.dll",
+            "size": 2256896,
+            "hash": "48c8be2acaea87a0ce7f8fa58951498753e8f0597a5b0f4c1db59e48ce65a770"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Drawing.dll",
+            "size": 22016,
+            "hash": "a598861555a52372da55df2990c8a5628e1a5e1f7696f99c4ef0900493998f46"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.IO.FileSystem.AccessControl.dll",
+            "size": 3584,
+            "hash": "fa2312e0973b08e593089f339e272c36fff16d0ea25ecbad65938ab34d20b41d"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.IO.Hashing.dll",
+            "size": 12800,
+            "hash": "50fe60aa772ed8419df9b7025213c151fbbf853843e0650d5efdec5c3f12e83a"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Memory.Data.dll",
+            "size": 11776,
+            "hash": "b9a2a2ab7be5a1fb171124f2ed5d4570faa6beabf65d0ef596cb730aaa839970"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Net.Http.dll",
+            "size": 197632,
+            "hash": "27461180d30b5421f9ba4421f77919c425b43f61b99c8663f91188bab42d041b"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Numerics.dll",
+            "size": 49152,
+            "hash": "ed91c8b3a8b45db41601695c96d3c7b454e7d34b5a61bb7bd39e684e55ce573a"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Runtime.CompilerServices.Unsafe.dll",
+            "size": 9216,
+            "hash": "ae52a67151394b0ad8d7d578e2fca8fc29eb1832f9a539dc659d4d59103019b9"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Runtime.Serialization.dll",
+            "size": 6144,
+            "hash": "f0643c5c8b2f977283d3b266e54b99580d32b4cbcaba7ed10931ac287f2de6fd"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Security.dll",
+            "size": 9728,
+            "hash": "ec72ad2aa2597661a3fe28175a5e836f2a50d60df6771197b4471ac7cb7f332f"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Text.Encodings.Web.dll",
+            "size": 28160,
+            "hash": "1b596a23b92eb2733453ca1f70f620a0ebc8fe8281aa9f03868700fcb47a454f"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Text.Json.dll",
+            "size": 888320,
+            "hash": "d3445557179e73be66a81a36efdb454b17ba1f26a4ffa48129252f5c45e246a3"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Threading.Channels.dll",
+            "size": 47616,
+            "hash": "138e5d44fd093f0be3556608eb256377e2057c8db616e7db1f80726816da9709"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Transactions.dll",
+            "size": 20992,
+            "hash": "6e3733414bab3529decc661a9b5fce5a24c953a43f37c0e415e2c29027358d02"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Xml.dll",
+            "size": 2106368,
+            "hash": "7e293c2c0b9f11d8520eda5fa59457581d0d3e4611092aa0186058bffa2b09b9"
+        },
+        {
+            "path": "BepInEx/interop/Il2CppSystem.Xml.Linq.dll",
+            "size": 78848,
+            "hash": "3169e54ec2b2c02cfd31ab4084e99e3ca4ad562801b44ed24354386efe50f9d9"
+        },
+        {
+            "path": "BepInEx/interop/Ionic.Zip.Reduced.dll",
+            "size": 123904,
+            "hash": "f2ae0d878632d16ec0d17ac9ddc13580a70866930d341d48fcac60d15fd7718f"
+        },
+        {
+            "path": "BepInEx/interop/LZ4.dll",
+            "size": 51200,
+            "hash": "65744dfb56ae22c099ddece6d51476f26e8fd5b8c214fa686e9a8d8eb31a4383"
+        },
+        {
+            "path": "BepInEx/interop/LZ4pn.dll",
+            "size": 20992,
+            "hash": "e50b5419a5989d029d74a7cae1700511ba9fa9794d7749856680547f1607bd27"
+        },
+        {
+            "path": "BepInEx/interop/Melanchall.DryWetMidi.dll",
+            "size": 299008,
+            "hash": "89833cd5464404630a8a9a7aadbb79eb3e3329dd674d4e65890b29c1aa298917"
+        },
+        {
+            "path": "BepInEx/interop/MethodAddressToToken.db",
+            "size": 10636672,
+            "hash": "7fb3487b74ccb2d92f32bd5bd12aec47237879f27c51e67c19b877e861998d94"
+        },
+        {
+            "path": "BepInEx/interop/MethodXrefScanCache.db",
+            "size": 16,
+            "hash": "ff254e3bdcb90cf9111cad8fedf0eb5bf9d3dc3823ccaac4cd710b65ca735713"
+        },
+        {
+            "path": "BepInEx/interop/MidiJack.dll",
+            "size": 78336,
+            "hash": "e0fc744f0f33b24ebb0282dfe395bf27623a62facfdbabefd1e300545a2fe787"
+        },
+        {
+            "path": "BepInEx/interop/MP3Sharp.dll",
+            "size": 206336,
+            "hash": "936dccb73c1d1b2ebb850af0471b8fb0b858aad3d5569e9e6876843d9ccef9c1"
+        },
+        {
+            "path": "BepInEx/interop/netstandard.dll",
+            "size": 4608,
+            "hash": "283a9322cb98915c3195c8ed2fff7a937a4fd5df7b3fc37894a823067b32b919"
+        },
+        {
+            "path": "BepInEx/interop/Newtonsoft.Json.dll",
+            "size": 727040,
+            "hash": "bafb742483938e674800e23cf2514c4d7cb1c07c98b72024934327a2dec62ac8"
+        },
+        {
+            "path": "BepInEx/interop/RTLTMPro.dll",
+            "size": 224768,
+            "hash": "b89a6dbc4be3881ab93d8ac94e6da4c5a675b6d8ce2b508130b02a66490a94ef"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Clans.dll",
+            "size": 65024,
+            "hash": "45ede67330b1dd4c5f59076cb2ea909de2f001c5534714e78cf956fa349aa53c"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Clans.Local.dll",
+            "size": 373248,
+            "hash": "c9117178ce572ebe364707a6fc72f472dc0468f5211afe6030d7a99fab416e9f"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Data.dll",
+            "size": 13926912,
+            "hash": "dd227144d27e0e1a251153c58104aaba7f21dbe1b6215ae6d9a18f64de34da13"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Demo.dll",
+            "size": 131584,
+            "hash": "6ccdd10d24a7628e7650b1e66fe60158529840931a89866fe0b59e285f51d739"
+        },
+        {
+            "path": "BepInEx/interop/Rust.FileSystem.dll",
+            "size": 128000,
+            "hash": "1b26795deb5953b9c14dda3bc6a45e8e313c62914b96a91b755b0d1a650acd44"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Global.dll",
+            "size": 614912,
+            "hash": "73ff14f30f88f028a39b801938679bf88719ac45724727e74629a2560dddc5a3"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Localization.dll",
+            "size": 49152,
+            "hash": "2646abdeafa1478fbf1eb998b2486f08be1e64991fc37cf5598c9760db206d50"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Platform.Common.dll",
+            "size": 174592,
+            "hash": "70f481a2221c8ffc544b44c3aede1de8feaec22ae4f7891afcab94df772aa4d1"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Platform.dll",
+            "size": 31232,
+            "hash": "bb7d345e0863913d915e3be51d2cd7dd6832ab8c67a7ef2837e539b1c62e76bf"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Platform.Steam.dll",
+            "size": 352768,
+            "hash": "4a0d908bb2d2d5e2eb6aaf6b34fd57c3b8712bc97d10069735d943da01ee3a20"
+        },
+        {
+            "path": "BepInEx/interop/Rust.RGB.dll",
+            "size": 188928,
+            "hash": "db4af1c364bb8b05717820904066a1b155fecd529f7703ab60d25f6b8e7d3a74"
+        },
+        {
+            "path": "BepInEx/interop/Rust.UI.dll",
+            "size": 682496,
+            "hash": "703deefc6a06d9efcb98a1091344b4dc12016b746f33d187d9067b1bbaf7096c"
+        },
+        {
+            "path": "BepInEx/interop/Rust.Workshop.dll",
+            "size": 931328,
+            "hash": "a8157fced5b272add92f79d77547133b96c839ef820b36664030248d2ac6f781"
+        },
+        {
+            "path": "BepInEx/interop/Rust.World.dll",
+            "size": 53760,
+            "hash": "4b4e0f2b98784c3ad3615256fb051cef4271e3cd2b68e95c3f23843998a5aa58"
+        },
+        {
+            "path": "BepInEx/interop/UIEffect.dll",
+            "size": 439296,
+            "hash": "7fb47c00c6ac227ad009075e92a4753323560ee7c4a444e5a60f6a46fb87a22a"
+        },
+        {
+            "path": "BepInEx/interop/Unity.AI.Navigation.dll",
+            "size": 37376,
+            "hash": "8120cae1bc8829fe9dce1fa7fe152ebb9684fd75b4e0ecc2aecbaccc5d19091c"
+        },
+        {
+            "path": "BepInEx/interop/Unity.Burst.dll",
+            "size": 69120,
+            "hash": "f4dbf8a27d2b9d04d61523f139616c685381cd2ed7c59197abe23c5962532c55"
+        },
+        {
+            "path": "BepInEx/interop/Unity.Burst.Unsafe.dll",
+            "size": 4096,
+            "hash": "d5511088dd8c125841c3be6a35beee058dcc16fa6669701561fcfb017300f640"
+        },
+        {
+            "path": "BepInEx/interop/Unity.Collections.dll",
+            "size": 180224,
+            "hash": "68b418e84505efc0ff5b4ae0b75040d35f6f9bf2a3b78855bbc0b2fa2c17282a"
+        },
+        {
+            "path": "BepInEx/interop/Unity.Mathematics.dll",
+            "size": 81920,
+            "hash": "0b568439e419d7726cc30319d1ce0a8c15f06fdc2e1f6eb2cc4e93999abfd9b2"
+        },
+        {
+            "path": "BepInEx/interop/Unity.TextMeshPro.dll",
+            "size": 527360,
+            "hash": "a22a80f6e21e159f04ee979a4263f26b39b9dcc1a5a2c68e3454174d5d283e63"
+        },
+        {
+            "path": "BepInEx/interop/Unity.Timeline.dll",
+            "size": 286208,
+            "hash": "5aa8f874dbd2b43d9b59dd236017a9e24064ed4083d3abdb4abc1430e91c79d9"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.AccessibilityModule.dll",
+            "size": 3584,
+            "hash": "1fc570f4b27aa3643998aa568717a7dc02236698339d212b698695a5e6960225"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.AIModule.dll",
+            "size": 86016,
+            "hash": "5f95e9f06131f5f28c6135aa4b09f1805d9ae0764cac9fb67850ca74b26405d7"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.AndroidJNIModule.dll",
+            "size": 117760,
+            "hash": "1f2484e60132b0e2cc249dbbab1a9aa5d6a6c9939266c8308d78b2ebb4aa78c3"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.AnimationModule.dll",
+            "size": 305152,
+            "hash": "01437a64a73690c87cfd78327cce5ec7bacb3879c43d561c6475631093c9f968"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.AssetBundleModule.dll",
+            "size": 26112,
+            "hash": "c3fb573a40d9c897e82c0a4735cdcda405ac28034359688ea038dab83d781af9"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.AudioModule.dll",
+            "size": 123904,
+            "hash": "c4d6e9f2d613bf7ec0591d54197088bd057b63693804041b8d1f99a3c26a4677"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ClothModule.dll",
+            "size": 20992,
+            "hash": "c4d8e3d65c179b14d6f768fb4bbc7ff0a259aeb8eb51e9ec9bf0a75561515bb9"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ClusterInputModule.dll",
+            "size": 6144,
+            "hash": "2cb907c22c70b8ecfeb162435513966f95989b032f80992a76e1200f25c2ceec"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ClusterRendererModule.dll",
+            "size": 6656,
+            "hash": "4c927b1985c6cf5ad1bf1a295f470ae9c2412ecae96b1bdf459a8c2127507a17"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.CoreModule.dll",
+            "size": 2375680,
+            "hash": "8ee465116afa974cf73115782f8c48904f30d7922bfa1fcda0513bcaf4315fc7"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.CrashReportingModule.dll",
+            "size": 4608,
+            "hash": "5d733a132a2d9154f5c29f3a5c70ff05d587e9367399daf8bbcd7f7bbac8378f"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.DirectorModule.dll",
+            "size": 16384,
+            "hash": "29a13e1f0f2480232da9d80a25e9708ea5c8730ceeb98cc07c1accda2a65f407"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.dll",
+            "size": 2560,
+            "hash": "2aa80fa97b2de01149790f75a15b4e9fc66d278f61b0dadcd6623fa4f460d00a"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.DSPGraphModule.dll",
+            "size": 10240,
+            "hash": "2c18a7c7f0705078ebab47e01e406b5035e12761c071a1d650a50a4c344ae637"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.GameCenterModule.dll",
+            "size": 11264,
+            "hash": "2de5273f477e143383d21a1409a147d8bb8b7d91e9acae9b1d87ab88d24cd0ed"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.GIModule.dll",
+            "size": 2048,
+            "hash": "399abaed6f08f6da4d8de059b970b9722fa2659646fe1192486fee06522fd8c3"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.GridModule.dll",
+            "size": 12800,
+            "hash": "b76d0586848f4aa09a1e77ad7691adcf97c9b659799717387824bcc7af158483"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.HotReloadModule.dll",
+            "size": 2048,
+            "hash": "f425eaacff1a7cdca27dbe409e10e3c7d6e534f8b958cfbe16e419060378605e"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ImageConversionModule.dll",
+            "size": 10752,
+            "hash": "c9ec65da5b4c5cf4f517b6032f907ad798a3c866f6beed1e10f2d607570071b1"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.IMGUIModule.dll",
+            "size": 279040,
+            "hash": "97c2dae7d7e330d8955ac6ef3f07096c5f96d66bbca515f1e001bdb0c81e0d91"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.InputLegacyModule.dll",
+            "size": 40448,
+            "hash": "0451255f0a9d70ad4ee4fad4bd94da9a9362c8ffd47bf0bf11fbe11351779153"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.InputModule.dll",
+            "size": 9728,
+            "hash": "4c70c7637bc151fe7b52db6086249ce5759aa44b444383cdb0caa30e0000b41f"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.JSONSerializeModule.dll",
+            "size": 5632,
+            "hash": "7d3d29e2d6b69050315d2951d2ec5f5987e16bd1bf4f1e17a1b7c4a0d85147a7"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.LocalizationModule.dll",
+            "size": 4608,
+            "hash": "67c85819700093982094690d9f252e8595816649ee20c2604c0e65ea2c180ea0"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ParticleSystemModule.dll",
+            "size": 154112,
+            "hash": "b0787a469306ba37dad166f99c18e46ce5cbccfa6baea1e97143f9e2515410ee"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.PerformanceReportingModule.dll",
+            "size": 3072,
+            "hash": "0942a1e03c4dd22bb9406c884c8f26ce0e70005d3afa1eb2de5fba405d1dffbe"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.Physics2DModule.dll",
+            "size": 228864,
+            "hash": "436c77ab5d60b523cf13bb04c4701a8aa6a448fba8dbc6e62573197450795a7f"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.PhysicsModule.dll",
+            "size": 246272,
+            "hash": "522c07b12d26f243f4cc6002eed820afa49fb349c97267be32c364c123f826d3"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ProfilerModule.dll",
+            "size": 2048,
+            "hash": "765fa752aa5d82c714939d72288acc1c48ae3e487d08cc9b093a02c29f1e9e32"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.PropertiesModule.dll",
+            "size": 105472,
+            "hash": "28d92f2f7be31db1027167281de43b7218b3502c392828da47587de6843e7452"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+            "size": 2048,
+            "hash": "ed65781ba87883d17d2f46f39cf5eb853fb7af332a2ae2a6b2f0721930bfbcbb"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.ScreenCaptureModule.dll",
+            "size": 4608,
+            "hash": "72ba009461bbec5f35e7347087eb0bea8db9d03727be6f51912f3c5334a03705"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.SharedInternalsModule.dll",
+            "size": 30720,
+            "hash": "530526e5eb3424a9a00745316bc44714f5ae9ac7ae77ecc630514b17e6a9313c"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.SpriteMaskModule.dll",
+            "size": 7680,
+            "hash": "a6f375422b93fe2661a4935111dfdc3985b8e2240443e870fefdbb99311ff5e2"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.SpriteShapeModule.dll",
+            "size": 6656,
+            "hash": "b53fcc3e7ae0b2c0b9f1efbe45084c3c51814d3ac665e62de0997736952e0fca"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.StreamingModule.dll",
+            "size": 4608,
+            "hash": "b89bb9e4b91fc7f29e974c7e2787fb5a765ab43892fb02ed0941856386dc8e7c"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.SubstanceModule.dll",
+            "size": 6656,
+            "hash": "55409977f192f0a8b4bb8b74e8a91092ff5da29f1847a7f0f0aec147c11040ec"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.SubsystemsModule.dll",
+            "size": 24064,
+            "hash": "7cc7abd55719164e8556a13f9165c43fbfe41e2bf5f65e507eeb1ba04cb6ddf4"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TerrainModule.dll",
+            "size": 119808,
+            "hash": "24424dba124c4ca93c7258ed5a3011f7c593c72e13efc668f5ca594bb9c78fb3"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TerrainPhysicsModule.dll",
+            "size": 4096,
+            "hash": "2b988425d755168aa3f27e25b424850f54204c72698ada40b25dc3d358a495f1"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TextCoreFontEngineModule.dll",
+            "size": 78336,
+            "hash": "78b77523fcbf0439ea67d4eeefbcd0b0918686a068e891d0b58950a1bf9d3af6"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TextCoreTextEngineModule.dll",
+            "size": 40960,
+            "hash": "d5ab20df27541e081c9596f700419adeffabacbcf4bcc4a3046230355d26d467"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TextRenderingModule.dll",
+            "size": 40960,
+            "hash": "3a69ce3a5c59c6e8f510d1ec3cd7077bf7736089aea3d884762e8113dee39da1"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TilemapModule.dll",
+            "size": 62976,
+            "hash": "154a08931801601e645f76e114c16f6d2dec81d87bb4e7ec733e6787bcaeb24f"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.TLSModule.dll",
+            "size": 4608,
+            "hash": "0198ea0c38074e0fde657385c9aa763fe4db71373072fc36d6eb036941623f85"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UI.dll",
+            "size": 533504,
+            "hash": "97cb355dc565c1677a941f0195bb60bb919be48dee3a404be85af12da762c4a3"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UIElementsModule.dll",
+            "size": 307200,
+            "hash": "d0b5ad32e44ff30bb58a5a3fa11930eb672ec995f82bfcdac4f19dc03f89255c"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UIElementsNativeModule.dll",
+            "size": 56320,
+            "hash": "9f13a695a99a00717edaabfa6ba4bff2a584716f83cea8f01857a9e634ee7ab6"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UIModule.dll",
+            "size": 40960,
+            "hash": "4507db15d7fe3cb01e680c43496905ff7eda1600c7a476c2ec5a7468489c590e"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UmbraModule.dll",
+            "size": 2048,
+            "hash": "0b59897e2d379eb768f2061f1606f38854c2e328bc18788c9197f428c8c961ce"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UNETModule.dll",
+            "size": 70656,
+            "hash": "c60a2324ddc29adcce771f753ed3380e795ebc6707c9b5af48baed30d23988f1"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityAnalyticsCommonModule.dll",
+            "size": 3072,
+            "hash": "c755bdc5fbf28f278f3680a7856dbeb48dddf4a0a3071675bbfd45509fb4a265"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityAnalyticsModule.dll",
+            "size": 55808,
+            "hash": "41069ad19e49a5af2450326b57235e98441170306a5893babf1938bd896534b9"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityConnectModule.dll",
+            "size": 8704,
+            "hash": "f2ecbb1a335acfefc982cb815ef21cfa7bf37ec57b8d795b881cfe70f13da9f0"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityCurlModule.dll",
+            "size": 7168,
+            "hash": "6cdbc1d6e5752bd03b53fe2c143a6cd1eb3655dd249cbc3feae83c0636cb161b"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityTestProtocolModule.dll",
+            "size": 2048,
+            "hash": "8440af6fe3f498d2ab4b12d8166426c89898fd231e4b8112b126ad86c0689325"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+            "size": 6656,
+            "hash": "1d4a62e3899fe516e01a3867a19110ce09758a56f02b9e5e139dbde235146055"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityWebRequestAudioModule.dll",
+            "size": 6656,
+            "hash": "4f390897ba06be75ae5df7c0a39b2f551f393010d1d1335f84ed7acece3972bf"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityWebRequestModule.dll",
+            "size": 64000,
+            "hash": "2dc21c4b9468d638b027bc2ede0a749e886a6e28d0c2ab5976db972538218276"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityWebRequestTextureModule.dll",
+            "size": 7168,
+            "hash": "6da08fefef7f40da9fc2c1c339e67e0bd3c1c5993b0a1b6619503de265a11a47"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.UnityWebRequestWWWModule.dll",
+            "size": 10752,
+            "hash": "7364a81fd8f4321ad0e6c39c69309c9220b325e8662fbc140e670f7a42942680"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.VehiclesModule.dll",
+            "size": 10240,
+            "hash": "6bc480ce18ff44a4b686a2556efd3feb49fb58ed43dcab0ee91b95e940eab903"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.VFXModule.dll",
+            "size": 76800,
+            "hash": "bfab05c342923c4ededd9cd8fec358776487e6b024d6d9a94df39a9330cca9cf"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.VideoModule.dll",
+            "size": 62976,
+            "hash": "dfb281b0f637517f661400a135873d90d0a669d4052d86417f3c835b27286100"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.VirtualTexturingModule.dll",
+            "size": 13312,
+            "hash": "8a319548a32a2ce5901f3e7240cda31f2b30f51e84d2d7881e84d76254e56d05"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.VRModule.dll",
+            "size": 16384,
+            "hash": "3d0ab25488ccac7eca1905c6e02d5b44d158f0a187632bb2bfb2508207f3a33e"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.WindModule.dll",
+            "size": 5632,
+            "hash": "44619267ffd63144c2d0e4333172c7c9eccb8b2fb927d0abe7c8e409401c45ed"
+        },
+        {
+            "path": "BepInEx/interop/UnityEngine.XRModule.dll",
+            "size": 81408,
+            "hash": "2aaf11f6b49558506a6f34289234cdfc250ef15fdbd969aeaeb3332b2dead0e5"
+        },
+        {
+            "path": "BepInEx/interop/ZString.dll",
+            "size": 1306624,
+            "hash": "8c77a31012705abbce1397147314469e1dacb6a388a633a6c4eaf628482a032c"
+        },
+        {
+            "path": "BepInEx/plugins/HeavyMod.dll",
+            "size": 45893120,
+            "hash": "dddfdd3b3e2117459c260fab9d1103b0b4aafb99569b36a0efe7be2644c8c1d1"
+        },
+        {
+            "path": "BepInEx/unity-libs/2022.3.41.zip",
+            "size": 1678876,
+            "hash": "155f1f2d73dcd425d0a6dfc9ab391fec19d69e8e3763dd77ecf8406deb44d125"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.AccessibilityModule.dll",
+            "size": 12800,
+            "hash": "a7ff56e26d22602bc3040764ea985d02c9f8f854a7704eddcc07153cc092bbbe"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.AIModule.dll",
+            "size": 46080,
+            "hash": "680b0bc35825dc0ea265285d14495593fceefa0d925589798c7b79a3919c5dcc"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.AndroidJNIModule.dll",
+            "size": 68608,
+            "hash": "70ee1d4a653033309838731b6981ce282429c9cdaacf493afc1df32962cf2245"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.AnimationModule.dll",
+            "size": 151552,
+            "hash": "5c64a4920e663d5f4997eb1c87a8d2f5634477a79e6100ecb36707acf655b0e0"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.AssetBundleModule.dll",
+            "size": 23040,
+            "hash": "11e03ebf04cf29a2da30da5e81edae1560ba4912f6103472b6e6f58e5711470e"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.AudioModule.dll",
+            "size": 59904,
+            "hash": "cb182a8d32cb977721ba71b75197f78301a3b1f8402d3d26273f6d77dd9f68e0"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ClothModule.dll",
+            "size": 15872,
+            "hash": "241d20c3d76bbfd23097a82229a23d281e170fa9eb86dad78b95576de1eba2fc"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ClusterInputModule.dll",
+            "size": 11264,
+            "hash": "4e0423cd104e067a9d6322fad615637d222e785f4a27896a78f051825a428208"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ClusterRendererModule.dll",
+            "size": 11776,
+            "hash": "d610c260a578178170034bbd513e46c6c80bb2c2e12293086db4860b623e9631"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.CoreModule.dll",
+            "size": 1261056,
+            "hash": "bce0d5e21399b589ff0c4c1cc68860f35c5276cd4136ff0e730e5c868ffdfb06"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.CrashReportingModule.dll",
+            "size": 10240,
+            "hash": "e98a736d1e870b1f4ed396ba8678a7ff270c8de6ac5605356ed39393701cf339"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.DirectorModule.dll",
+            "size": 14336,
+            "hash": "56a185de381985a1ec26500d3fe0aecbd2a4cb6e800913655398c40115e5726e"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.dll",
+            "size": 101376,
+            "hash": "5274aa087cbb00c8f830189050e3839543236ea16d26f6b929482c167c9b62f6"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.DSPGraphModule.dll",
+            "size": 18944,
+            "hash": "e5b2fdb5089fed0340dbf7c6d3fd2cfe123e904f043f4d5b37d60f66e7d1b37f"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.GameCenterModule.dll",
+            "size": 29184,
+            "hash": "d92c2bff3f556b810cf02089eb8ae82ad80e4ebb317b95b3ad2fcdf6f957d026"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.GIModule.dll",
+            "size": 9728,
+            "hash": "ad550291f717c7ff2d00a47033f5d7db9135bc76b18cac2f5b7ebfcb382d4852"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.GridModule.dll",
+            "size": 14336,
+            "hash": "41d604e37988adcfde25797f6a4e1f35e8d6bb01e4f110fefd220cb4238b7476"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.HotReloadModule.dll",
+            "size": 9728,
+            "hash": "04f9a0d59ba150d481a3649f89f7c722fb550ec761646beaa067a2199dbc4377"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ImageConversionModule.dll",
+            "size": 13824,
+            "hash": "b83ad25137803592e5cdb5d0c44689e4967b9f09431ffd435d8724187520d9ea"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.IMGUIModule.dll",
+            "size": 162304,
+            "hash": "d6a30fe62770106333bb15443a09c172ff641e89dfc169af96a78e03f24a4981"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.InputLegacyModule.dll",
+            "size": 27136,
+            "hash": "6c3d8b2724c6801da5682d8d9702c34192f7bdb089a4bb48c04a3a09abf8a6ce"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.InputModule.dll",
+            "size": 12800,
+            "hash": "dd081c3731e2666e855869acf2bcb8557b5ea60457251d08ebbd84dfea93203d"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.JSONSerializeModule.dll",
+            "size": 11264,
+            "hash": "8fe0ebeadadb963953dc3ec3ad23029e32233e50960eadeeb5a0425b37f273b9"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.LocalizationModule.dll",
+            "size": 10752,
+            "hash": "88d4e31738ed839375ad5fdb738ce90b4f07fb37b32f3ebece7615279b1f38fd"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ParticleSystemModule.dll",
+            "size": 143872,
+            "hash": "0d68b46328421e6c552d398f5b51738c8089f96bb651f0d56bfdee4c44ceb1b6"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.PerformanceReportingModule.dll",
+            "size": 10240,
+            "hash": "0b7ae69089185da33c82ad9c2b91c8a58383246f30ce99f3614cf02428646e97"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.Physics2DModule.dll",
+            "size": 123392,
+            "hash": "7d3c395d3cadb18cacd7f3ec9b8ed9d97d44701a0678501e9d3305681c532f02"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.PhysicsModule.dll",
+            "size": 103936,
+            "hash": "3bf669b6a72efbaf4900ca3b3e1c6d0ea60d3db5dfd54147ed8c3a39221b0b01"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ProfilerModule.dll",
+            "size": 9728,
+            "hash": "b48e4a171d586e75622595e0ce3d00a5bc190fd41b98fcf79458be21e9802e02"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+            "size": 9728,
+            "hash": "b0156329f819b06d700b7dc9cc5696c1ccba43c100b0be7beeba2d01a5862132"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.ScreenCaptureModule.dll",
+            "size": 10752,
+            "hash": "0027527d76f9ffbd288e10279e9f5f36cca316151fec272efa7480a4fa1ad9ee"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.SharedInternalsModule.dll",
+            "size": 22016,
+            "hash": "de4b207c2f95bc79f6a1b3d300b87d3889a5111091d0d9096b9a085949784c60"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.SpriteMaskModule.dll",
+            "size": 10752,
+            "hash": "11ea2428ea24068ba45c705f15b7fd5ae56984542364a94383b1c2a98732827b"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.SpriteShapeModule.dll",
+            "size": 14848,
+            "hash": "2f7999811819306d93d7b33c7972a331594845402aa49d599255e6d1196e8c3e"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.StreamingModule.dll",
+            "size": 10240,
+            "hash": "d0f29163bdfc2e6c78254bfa1bf3ace2bcbeeea0b44775c89933f5068287b41d"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.SubstanceModule.dll",
+            "size": 14336,
+            "hash": "fd9d7d34270115129ab6484bdddfc3a7bcb8e94f68926da4466f4a4debec6ba8"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.SubsystemsModule.dll",
+            "size": 24064,
+            "hash": "55478e7ff4f3533370b1b1ebab001766072227f6f7effe918d35144b081e9305"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TerrainModule.dll",
+            "size": 88064,
+            "hash": "0ec9853b4e0c5823b427aa9cc135792b5891ae1482b48fc17cef0eb01f33ab59"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TerrainPhysicsModule.dll",
+            "size": 10240,
+            "hash": "6f3db9a947b257383e559033ec0abc4c406cd30c0fecb278ffc2f0edc41d6a79"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TextCoreFontEngineModule.dll",
+            "size": 61952,
+            "hash": "d1f1836243415f567d853613b8439093af0a2b99a683193c430156ffdc591e32"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TextCoreTextEngineModule.dll",
+            "size": 186880,
+            "hash": "797b7daf3ba4f0739afad1d97011a5555f0a2a9294f95248e8caa0620888d9df"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TextRenderingModule.dll",
+            "size": 28160,
+            "hash": "b8691992a3468baf3392e3e7cf65fc69967cedb016341129c49786cc4f103dfa"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TilemapModule.dll",
+            "size": 32256,
+            "hash": "2717b56b0d18e9ce083d3f39fb3f57f50c85e18465bf165788de243f56ae3416"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.TLSModule.dll",
+            "size": 15872,
+            "hash": "652aec5dcca6c07030793d35450e052a8fe7f20c044554bb87ba966577932690"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UIElementsModule.dll",
+            "size": 1197056,
+            "hash": "92a5bc4076cb9e2d632e516683f26224355fb796773efe91f753683736ef31bc"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UIElementsNativeModule.dll",
+            "size": 48128,
+            "hash": "0bd6a1431d0da0b3c29adb495cafe5f89eaba62307d863402e533b1e363fc21f"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UIModule.dll",
+            "size": 25600,
+            "hash": "7a63aaec75174fc4d87b1de89db0685067f602b1c428a8d0bf8dd02eae11c7ac"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UmbraModule.dll",
+            "size": 9728,
+            "hash": "45b13fbff57d0cb685e809a2f2e0e53f06d18da411e67a6b5c94a9a68e5241bf"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UNETModule.dll",
+            "size": 79360,
+            "hash": "c0b068533b0d6fe8acea4583a2d719d999d1f9d546a96e3746b170647ad35a97"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityAnalyticsCommonModule.dll",
+            "size": 10240,
+            "hash": "21c87dd8e781dddb50f22091905da91ef45d222a3e01a9f00016fb99d4968ca5"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityAnalyticsModule.dll",
+            "size": 33792,
+            "hash": "cc116c1fda2c8950b4c0965c0fdcfe9031f02ba91d63e5b4a071322569f2235a"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityConnectModule.dll",
+            "size": 11264,
+            "hash": "95703ef7d607445559933638bdb6906e742bbe4395f619362497c8e9f30b699f"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityCurlModule.dll",
+            "size": 11264,
+            "hash": "7a04b5a922d8f69ee5d04f4335ca50c2e685dd4433f61489ba7dc738843e53ae"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityTestProtocolModule.dll",
+            "size": 9728,
+            "hash": "c9d773337e92ed05e6f3c0db337190b8a7a2bdfe77ac6cba4bc7cd7eaa432790"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+            "size": 12800,
+            "hash": "4a90ef844c1f6f25037d19e53f9951133461ea891c2c2dd39522c8e454722f16"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityWebRequestAudioModule.dll",
+            "size": 12288,
+            "hash": "50406d0a7c745b42bdd667122a5854202c358393f73c4fb0a64165e325e9038a"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityWebRequestModule.dll",
+            "size": 46592,
+            "hash": "e7b00e5679066ece964ad9c63980cfca0ae96ea05e256c8538b99b37eaca1b6e"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityWebRequestTextureModule.dll",
+            "size": 11776,
+            "hash": "2c605d21d5d19ab64d3414680d4e9e214cf61efc1538c34e30cd39c0e465ee3d"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.UnityWebRequestWWWModule.dll",
+            "size": 20992,
+            "hash": "c5e5f047ac1fa21b590f33504bc885f042c481e28b11a0aa7c75d8b6258c8c4b"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.VehiclesModule.dll",
+            "size": 13312,
+            "hash": "24b5c43d1d155ccb4558464cde395a3c03635ddc0c5987669aa9334fc0f2790d"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.VFXModule.dll",
+            "size": 44032,
+            "hash": "a5fef4a1a5f0c60879730322b8b8b980c48145aa86751ef71bf8043ac81a2851"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.VideoModule.dll",
+            "size": 29696,
+            "hash": "e4c417c366035801baaea94dff39d73d437616684d7c52155abd91234dcdbe7d"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.VirtualTexturingModule.dll",
+            "size": 24064,
+            "hash": "3b2e66bc4debae29c59fcb90e82ff251175d6e9b90dd9bea6c3a776efada4fd5"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.VRModule.dll",
+            "size": 15872,
+            "hash": "07c4bfe67e75cac41e60e617435adc6fdfa1fccd1db4d1e397b32953cd8dacd1"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.WindModule.dll",
+            "size": 10240,
+            "hash": "310e91cd2304c3f2dc8ba65b05c66805aa4a81750158e1411432cd58bd840aea"
+        },
+        {
+            "path": "BepInEx/unity-libs/UnityEngine.XRModule.dll",
+            "size": 59904,
+            "hash": "e9b9c0229877c0faef7f5bfa963ab1ed6631304599ac2c53650a778fcbe9b458"
+        },
+        {
+            "path": "doorstop_config.ini",
+            "size": 1682,
+            "hash": "bc28065692666256e435f7083882f54455765e72c502adc5981a3fe49c0e59fd"
+        },
+        {
+            "path": "dotnet/.version",
+            "size": 49,
+            "hash": "4052ab33b00d0411fc9ce103ac9d51564cf8630fddb7464d82ddcc168d4d302c"
+        },
+        {
+            "path": "dotnet/clretwrc.dll",
+            "size": 304768,
+            "hash": "825e796ba50a5656b80aefd3b53e44585f0caa33c46ac115bab0e09a67501354"
+        },
+        {
+            "path": "dotnet/clrjit.dll",
+            "size": 1436288,
+            "hash": "6521495c6c1d0eb29402fa4a79667036d56bbfd902daa4e7f3fc89a1c079ea54"
+        },
+        {
+            "path": "dotnet/coreclr.dll",
+            "size": 5123200,
+            "hash": "04377968c540f704aae92ecb0ec9bbfd5fddfe226dfca30aa3eeb52006a44fd8"
+        },
+        {
+            "path": "dotnet/dbgshim.dll",
+            "size": 140416,
+            "hash": "8ba04ca88cdbb7aceb134c12bd67abd7fb2864c4008495f8224a084b9ba74c93"
+        },
+        {
+            "path": "dotnet/hostpolicy.dll",
+            "size": 392320,
+            "hash": "3eee1bf88acdac74aedea15eb4ba2c4410d2082184266cd929c1310462115095"
+        },
+        {
+            "path": "dotnet/Microsoft.Bcl.AsyncInterfaces.dll",
+            "size": 16000,
+            "hash": "5705d245072d3eb78400547b32147dbb6e2c8b02ba8bda76729798f5efdeaecb"
+        },
+        {
+            "path": "dotnet/Microsoft.CSharp.dll",
+            "size": 1045120,
+            "hash": "316a247fd993e03f0a4d1e7acb89dc5bc602555b7078bfb60e11ba2e24d960c6"
+        },
+        {
+            "path": "dotnet/Microsoft.DiaSymReader.Native.amd64.dll",
+            "size": 1813896,
+            "hash": "3aecc22ececf784182883ebd2c2bf60bcdb25cc209dd64c32800b845ee8966e0"
+        },
+        {
+            "path": "dotnet/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+            "size": 43632,
+            "hash": "9ccd830351aa28bc683d4f8d1cefd9e724161f972d25bfb64eee5bf55c48c5e3"
+        },
+        {
+            "path": "dotnet/Microsoft.Extensions.DependencyInjection.dll",
+            "size": 81536,
+            "hash": "2aa8182b5356a8cc5c35fc3641a87e814857d8d9be399ac78f260343754d09e0"
+        },
+        {
+            "path": "dotnet/Microsoft.Extensions.Logging.Abstractions.dll",
+            "size": 62064,
+            "hash": "d575c9d1543ca726ce14dbdffd103e93ea527cd46bb28316da1f4122dbc55d56"
+        },
+        {
+            "path": "dotnet/Microsoft.Extensions.Logging.dll",
+            "size": 44656,
+            "hash": "183650081b551dfad967a7cbf79946a229cb79458b8d04a12db7c44b03bb9ab7"
+        },
+        {
+            "path": "dotnet/Microsoft.Extensions.Options.dll",
+            "size": 59008,
+            "hash": "786112cb2f6646ef1170219a8c0bb813c9f14a6781e67c6266414f55a679565d"
+        },
+        {
+            "path": "dotnet/Microsoft.Extensions.Primitives.dll",
+            "size": 40048,
+            "hash": "8ce9a85927ec7507b11ffe90080e7a811d51304a9e8b1da20c350159ba403902"
+        },
+        {
+            "path": "dotnet/Microsoft.NETCore.App.deps.json",
+            "size": 32783,
+            "hash": "879dc0cb9c9a7a41681e399fc4f18c15ef1ac9a3410f68b94a8d13dd0c6c391c"
+        },
+        {
+            "path": "dotnet/Microsoft.NETCore.App.runtimeconfig.json",
+            "size": 159,
+            "hash": "1b7aa545d9d3216979a9efe8d72967f6e559a9c6a22288d14444d6c5c4c15738"
+        },
+        {
+            "path": "dotnet/Microsoft.VisualBasic.Core.dll",
+            "size": 1245312,
+            "hash": "5897c9fc711aeb67f0c0cb1dcf205035cd48ea6aa6e8c9a9dfd99874e7ef9eb1"
+        },
+        {
+            "path": "dotnet/Microsoft.VisualBasic.dll",
+            "size": 18048,
+            "hash": "2ea09b137eca6d0aaa01fc6746b56242f9bd4f9659a7fcdc78e64162d58752bb"
+        },
+        {
+            "path": "dotnet/Microsoft.Win32.Primitives.dll",
+            "size": 26240,
+            "hash": "e8f2611b0cdc077d5600cce9e02c1bac42a54c3574f6dc16c478b3e6a0ae217c"
+        },
+        {
+            "path": "dotnet/Microsoft.Win32.Registry.dll",
+            "size": 87680,
+            "hash": "e927cbba4f097b165bc07b85dc8e6b8bad6df17fc1035f2ab54dac844bf9c922"
+        },
+        {
+            "path": "dotnet/mscordaccore.dll",
+            "size": 1321888,
+            "hash": "dd2da6e841155c8869a68270d951246cbfe67943bb71082121fc5ea3d5439661"
+        },
+        {
+            "path": "dotnet/mscordaccore_amd64_amd64_6.0.722.32202.dll",
+            "size": 1321880,
+            "hash": "0cecee158f8b762c8a3610a91ca099abf7fb834984803ec7d4e0bae09ccec173"
+        },
+        {
+            "path": "dotnet/mscordbi.dll",
+            "size": 1269400,
+            "hash": "acab4f32fb8ce65f535b2096c4556962dd271d40000fe688f19a04bde93a2080"
+        },
+        {
+            "path": "dotnet/mscorlib.dll",
+            "size": 58496,
+            "hash": "17d4b3d640a611585c6bac2dadd22f76a68a667ae0cc90c446ede02edefb506d"
+        },
+        {
+            "path": "dotnet/mscorrc.dll",
+            "size": 147072,
+            "hash": "587fb8810e8ded0bd1b33c4a8281ea2f288c58c1dd62afcb33f30433f04b124e"
+        },
+        {
+            "path": "dotnet/msquic.dll",
+            "size": 499584,
+            "hash": "4101dcf2edc42417fdc3f7db048442ba0b0a05d376cafa3ed6c85e1dc6b3b9f6"
+        },
+        {
+            "path": "dotnet/netstandard.dll",
+            "size": 101504,
+            "hash": "2666c3d2972e95b2306cfab72dff26704ce89f1a25b55ba05daefac2f7654575"
+        },
+        {
+            "path": "dotnet/System.AppContext.dll",
+            "size": 15488,
+            "hash": "50646e8365bb6774c96843e2050607daa727fe01c5ac0dc33f20078bbca17800"
+        },
+        {
+            "path": "dotnet/System.Buffers.dll",
+            "size": 15488,
+            "hash": "fcdd06fc669315988d2a27a6a2e78deb03dfb5550c277b328d90a8b26ed81adf"
+        },
+        {
+            "path": "dotnet/System.Collections.Concurrent.dll",
+            "size": 246912,
+            "hash": "1314f85d88a247a8d3fc4a41f1735af31e5e0c5324e93e3b167b331b46de8019"
+        },
+        {
+            "path": "dotnet/System.Collections.dll",
+            "size": 264832,
+            "hash": "628a180f7c368a1011608b422dd1c8de37064f21b59cbc26bd62e9b065c2e7be"
+        },
+        {
+            "path": "dotnet/System.Collections.Immutable.dll",
+            "size": 666240,
+            "hash": "89743bc3e0b95132470c2c699add5cb5466fe7fb938725e09612b9bee526eb9f"
+        },
+        {
+            "path": "dotnet/System.Collections.NonGeneric.dll",
+            "size": 100992,
+            "hash": "aad04cce314ced4070b457a1638fa9bd85160b4148582483b4e317d7f2f92ceb"
+        },
+        {
+            "path": "dotnet/System.Collections.Specialized.dll",
+            "size": 95360,
+            "hash": "6b3143ab53ef90285db5c30de82eab03a78ff83cc53f62730408a3eb593ff026"
+        },
+        {
+            "path": "dotnet/System.ComponentModel.Annotations.dll",
+            "size": 187008,
+            "hash": "c72aa4efbb17d9c5c8bc03a69b963644652da5b5b5b6cc8489d75379026511d2"
+        },
+        {
+            "path": "dotnet/System.ComponentModel.DataAnnotations.dll",
+            "size": 17544,
+            "hash": "ade682d3e52b24e47d7b14b1e71aeb8dff77f5063006e5cb1bf0caf03629db1a"
+        },
+        {
+            "path": "dotnet/System.ComponentModel.dll",
+            "size": 18584,
+            "hash": "69e9429b032c853fcabd9dfc3bdf13701ac8c730ca40e1afc949f935932846cd"
+        },
+        {
+            "path": "dotnet/System.ComponentModel.EventBasedAsync.dll",
+            "size": 38528,
+            "hash": "f2533cb4e274ce9dfe702ea34affb2e32b220ee714fb8dc118b2339519227131"
+        },
+        {
+            "path": "dotnet/System.ComponentModel.Primitives.dll",
+            "size": 75392,
+            "hash": "adac36fec73388cdbb349527bd81b84c0b88ec2b381b81cc97efb4549cd471fd"
+        },
+        {
+            "path": "dotnet/System.ComponentModel.TypeConverter.dll",
+            "size": 744576,
+            "hash": "7126b16695d5a2e4a593cec1b7cab8ec10df5cbd9f31f5ff7cc25671e41e82cf"
+        },
+        {
+            "path": "dotnet/System.Configuration.dll",
+            "size": 19584,
+            "hash": "2c724a2a5b4e6926c5ebb56adb3f33f27067e2e3d319e814a8537b9a579b32e1"
+        },
+        {
+            "path": "dotnet/System.Console.dll",
+            "size": 156824,
+            "hash": "82f483f5b349f8f4f0bc6c651d1faa2e78dd3f01528dc72c7ac387ba7246ae06"
+        },
+        {
+            "path": "dotnet/System.Core.dll",
+            "size": 24192,
+            "hash": "8b05cc2dfd7491b709caab31c5fa5d58da1bc321210536360ad20d19be39e508"
+        },
+        {
+            "path": "dotnet/System.Data.Common.dll",
+            "size": 2983552,
+            "hash": "48d8145ef5e96c016adb303bd59a34bacda6f94baeedd9dc548ded61defebab1"
+        },
+        {
+            "path": "dotnet/System.Data.DataSetExtensions.dll",
+            "size": 16000,
+            "hash": "0f5e8441ce28f0771f8fde9a5d1c6b65e6e25dfbf2c1b24420c2dfece3a29631"
+        },
+        {
+            "path": "dotnet/System.Data.dll",
+            "size": 25752,
+            "hash": "5566075cda9658c248d506aea051bcc120c94005bf14cf4bcc1b23fa7257f9ee"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.Contracts.dll",
+            "size": 16024,
+            "hash": "eccdaaac1b9f2af83a9f6b49786996d334f6ce7133c1c37c4647065b49ea8a63"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.Debug.dll",
+            "size": 16024,
+            "hash": "606e24a3bbc11942914ff4f60c3007fa737e0d5a2f4a5c021e0238f5403b66fe"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.DiagnosticSource.dll",
+            "size": 380568,
+            "hash": "a939f33ccea3a6731fdfb7791d32c3b518864f243211e39b6156dbb21ceb04bc"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.FileVersionInfo.dll",
+            "size": 35456,
+            "hash": "b9e7b0073c546037a4f28439e8c3800c93f442e22ca706790d90ad71e7c319b6"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.Process.dll",
+            "size": 290432,
+            "hash": "98c318970936e1ac79cde888e4cbfa455d91348881931fefa6c84a2cb084d5e3"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.StackTrace.dll",
+            "size": 36480,
+            "hash": "7b7d3f408ae1aefa8c78f9af5e2300546a08ba49e198247fb6538b13bf0e5b0d"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.TextWriterTraceListener.dll",
+            "size": 60544,
+            "hash": "655d26fcf394b8ff01c2e3ecc8a40271903c02a7e251ebf4d58b8d291ea5f488"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.Tools.dll",
+            "size": 16000,
+            "hash": "89b601e94e5bfd18c573dcbdd8ab2f6fa67f5c6b88e9b32888d79d70a2a3b2bd"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.TraceSource.dll",
+            "size": 133248,
+            "hash": "a9138f26b1d866fa7179eab0962d7b90df61b39dbc088ddc951eaa0ab146b0a5"
+        },
+        {
+            "path": "dotnet/System.Diagnostics.Tracing.dll",
+            "size": 16512,
+            "hash": "5407d3ac2fbdb47a25c34e84a7b679ec4f76791ae4c7cb7cc6312c20ffd04094"
+        },
+        {
+            "path": "dotnet/System.dll",
+            "size": 50840,
+            "hash": "9fb95a87ad50d6b0cae05d9108382915144068034fbbd9f7f733c01dcc0ccfdb"
+        },
+        {
+            "path": "dotnet/System.Drawing.dll",
+            "size": 21120,
+            "hash": "5176d9cbee941ded09dc6c1ab8255241abd07dcaa8b177f0c7f6fc1e99f498b3"
+        },
+        {
+            "path": "dotnet/System.Drawing.Primitives.dll",
+            "size": 130176,
+            "hash": "d2aafdb04c1af629cdeb2798a189b23840ccf0630b8782920738cd928bc59121"
+        },
+        {
+            "path": "dotnet/System.Dynamic.Runtime.dll",
+            "size": 16536,
+            "hash": "2a930d63f7020099f6b61733147af4e38cbc3f80ea6eea93c79421103751e6aa"
+        },
+        {
+            "path": "dotnet/System.Formats.Asn1.dll",
+            "size": 197248,
+            "hash": "26173e7e2970904164e8e3374eb225351453ba4d06d7cc3762ed2e610f9f8a7f"
+        },
+        {
+            "path": "dotnet/System.Globalization.Calendars.dll",
+            "size": 16000,
+            "hash": "9df5237e78abae0efd1d90849b6a94c88a73c5da5cab3302407472f886eaf057"
+        },
+        {
+            "path": "dotnet/System.Globalization.dll",
+            "size": 16000,
+            "hash": "ff51c19e14e496ebd3c93a661190e1d6ed99d3f2cc7bee4f9a826b7a46332e5a"
+        },
+        {
+            "path": "dotnet/System.Globalization.Extensions.dll",
+            "size": 15488,
+            "hash": "51eaa10853a4672f0ed9e673ff8d7ad154514a26a8c4b990c313f61787a9fc62"
+        },
+        {
+            "path": "dotnet/System.IO.Compression.Brotli.dll",
+            "size": 72856,
+            "hash": "dc1f71afbc55f6a6c135cd135b89e461c580b73c619daaaa91ef266ec0e4bcc1"
+        },
+        {
+            "path": "dotnet/System.IO.Compression.dll",
+            "size": 266880,
+            "hash": "2c70db9227451b97f5f2c9cad7e4a434895983450e5b653082c29d69aaf25292"
+        },
+        {
+            "path": "dotnet/System.IO.Compression.FileSystem.dll",
+            "size": 16000,
+            "hash": "fc11b8625f1e1a5382274494fe0f2459d9e67951217ddb965ba384b8f84a6001"
+        },
+        {
+            "path": "dotnet/System.IO.Compression.Native.dll",
+            "size": 822936,
+            "hash": "b4e65c507f48f28e96e69247e47093b35d0b1a376af4c052d504983e9c26ae44"
+        },
+        {
+            "path": "dotnet/System.IO.Compression.ZipFile.dll",
+            "size": 39576,
+            "hash": "6237bbae8bcd8e34273ca5aa59685701fad22b6b6fcff3e7dae277942f254355"
+        },
+        {
+            "path": "dotnet/System.IO.dll",
+            "size": 16000,
+            "hash": "bb50ff8a1f9affd53107dddc78a33cb656988d6842f5aac628cecb0b15f634ab"
+        },
+        {
+            "path": "dotnet/System.IO.FileSystem.AccessControl.dll",
+            "size": 93848,
+            "hash": "544deee0e7663d4c5d6091f1b2197ed27e2fc5222254682b3bfb76a01eaaa8be"
+        },
+        {
+            "path": "dotnet/System.IO.FileSystem.dll",
+            "size": 24192,
+            "hash": "91e0348a48b0d9a69e0fd8db54b1bee3b9465ae13f7fd95fbb4b25bde3f80c16"
+        },
+        {
+            "path": "dotnet/System.IO.FileSystem.DriveInfo.dll",
+            "size": 42648,
+            "hash": "cfc334386e491a0fa41409d2e7cfe9c8b27e18fa3193d101916f92d93d975984"
+        },
+        {
+            "path": "dotnet/System.IO.FileSystem.Primitives.dll",
+            "size": 15488,
+            "hash": "42a9d51d8fe5166fef82aac23c820adcb354b822b5b74728ffb0e79093ea0d3a"
+        },
+        {
+            "path": "dotnet/System.IO.FileSystem.Watcher.dll",
+            "size": 72344,
+            "hash": "ddba64e364f20ef1472d39bbaf988073276c4f2ecf72b4f8196388ddb20bcc11"
+        },
+        {
+            "path": "dotnet/System.IO.IsolatedStorage.dll",
+            "size": 83608,
+            "hash": "a79b19f37db340184f6a53a82b0e3410d7698bf1736ec479224edf7eb3d508f9"
+        },
+        {
+            "path": "dotnet/System.IO.MemoryMappedFiles.dll",
+            "size": 69272,
+            "hash": "958eb5c597368f194d334d0bff479706c83a8a80c992eac3b9ba5b94e5ecfe4c"
+        },
+        {
+            "path": "dotnet/System.IO.Pipes.AccessControl.dll",
+            "size": 16512,
+            "hash": "d434a73f0b9368922bdc7d57e0bf7a80e3566cbd3a29665f4d868e5aac1a1677"
+        },
+        {
+            "path": "dotnet/System.IO.Pipes.dll",
+            "size": 136344,
+            "hash": "fb75c1dd8c3a77641ab28058d32738551fca2e5ec52fa6c123e3b42e5639126c"
+        },
+        {
+            "path": "dotnet/System.IO.UnmanagedMemoryStream.dll",
+            "size": 15512,
+            "hash": "cf9c47e009e08695c200647ddf2b6757a8375fe3a74830137143c989864ebfd9"
+        },
+        {
+            "path": "dotnet/System.Linq.dll",
+            "size": 537752,
+            "hash": "52e1cfbd54de414a2b3c44dad40bbba10f72a8f9ba9cee68323bda0b4f417f69"
+        },
+        {
+            "path": "dotnet/System.Linq.Expressions.dll",
+            "size": 3857048,
+            "hash": "df96691089ea41cb5a8daffc5e95324a5a5f3516083bff2448a377fbfd61e918"
+        },
+        {
+            "path": "dotnet/System.Linq.Parallel.dll",
+            "size": 849048,
+            "hash": "920b3f087c615a7ad0057925b3fa6d9720690123075a6fe2af07203f26786656"
+        },
+        {
+            "path": "dotnet/System.Linq.Queryable.dll",
+            "size": 228504,
+            "hash": "ba5e7f66011ac7f215518d46ff2a13f646489d5a89334c33d6b9c6f697e3e2d2"
+        },
+        {
+            "path": "dotnet/System.Memory.dll",
+            "size": 173720,
+            "hash": "108f424ca216f2d057c722f686bcc25dbc02b221b2cbceeae21ddb456fd97eaf"
+        },
+        {
+            "path": "dotnet/System.Net.dll",
+            "size": 18048,
+            "hash": "50e883ae0cf45cd8d35ee4cdb83dbc3b6da8284afc4ef53352ccba502febe6a2"
+        },
+        {
+            "path": "dotnet/System.Net.Http.dll",
+            "size": 1801880,
+            "hash": "5b1cb786c6da2c36e86f2079eeb22081c35bf951d5f286ae4a83154a3071edff"
+        },
+        {
+            "path": "dotnet/System.Net.Http.Json.dll",
+            "size": 82072,
+            "hash": "d0b4bc46949a090c1f30dff8834efdd7ab2cae8fb888b60032f180e5c179aebd"
+        },
+        {
+            "path": "dotnet/System.Net.HttpListener.dll",
+            "size": 639128,
+            "hash": "4efab60ed73e5ae823610fdcd2dc66cc02c6c44244eedfa8ce424be7f62488aa"
+        },
+        {
+            "path": "dotnet/System.Net.Mail.dll",
+            "size": 551576,
+            "hash": "866b26900d30a29b174213e217e21a49d2bfd1e99b21e5ab33ea8e4d5aa1c88c"
+        },
+        {
+            "path": "dotnet/System.Net.NameResolution.dll",
+            "size": 101016,
+            "hash": "bc9f07b05893c03cd47fbc71176c3e89287a493eea4a430d74193c841463181d"
+        },
+        {
+            "path": "dotnet/System.Net.NetworkInformation.dll",
+            "size": 150680,
+            "hash": "4310ee56787d5cb17a908c6313c7d7c0be7e66772ad43dcd384cc12940793067"
+        },
+        {
+            "path": "dotnet/System.Net.Ping.dll",
+            "size": 79000,
+            "hash": "76d2a89cfeae149c1ceea891b563527cad6c4823e01185aa25824cf1c0aa931c"
+        },
+        {
+            "path": "dotnet/System.Net.Primitives.dll",
+            "size": 214168,
+            "hash": "421fdcbd8eb0a744424995dbcdee2e72eca9ef1bfcddb53187fb624499dccc51"
+        },
+        {
+            "path": "dotnet/System.Net.Quic.dll",
+            "size": 291992,
+            "hash": "78c61d0efdeca3dd6929e80083798dcda9b557183f37d556397daad7241f83e7"
+        },
+        {
+            "path": "dotnet/System.Net.Requests.dll",
+            "size": 348808,
+            "hash": "9990e35b0aafbdd58acc4ed76db1f4f8639c0f9cc9f02aa38b8fbbe8d173f340"
+        },
+        {
+            "path": "dotnet/System.Net.Security.dll",
+            "size": 682136,
+            "hash": "f591ce881a45fe77608f8b301853218dec7caccc7f1007a3c6d59eeec8f8c7ae"
+        },
+        {
+            "path": "dotnet/System.Net.ServicePoint.dll",
+            "size": 37000,
+            "hash": "15a4182be2f2d7613f5240fd7805e197cd28b6e5dc85ff56a18438d2adc0ae5e"
+        },
+        {
+            "path": "dotnet/System.Net.Sockets.dll",
+            "size": 506520,
+            "hash": "0d00c303e305949a1543658e9e15477fbf6eb66b663c4cd2cf8c037e0265e7d7"
+        },
+        {
+            "path": "dotnet/System.Net.WebClient.dll",
+            "size": 166552,
+            "hash": "2dab6b8b9efa86a7f0af51ccfbcfd135d309e648c4d43223923d87f7ba983fed"
+        },
+        {
+            "path": "dotnet/System.Net.WebHeaderCollection.dll",
+            "size": 60568,
+            "hash": "a62cb21accebbb410308073bd1d7b177d91365aaf5af63324e7446d4fd6155c4"
+        },
+        {
+            "path": "dotnet/System.Net.WebProxy.dll",
+            "size": 31896,
+            "hash": "21a3230f6d7a3d0bd307be718ade71e8f12d25d0c1f468d040f12f053680de2e"
+        },
+        {
+            "path": "dotnet/System.Net.WebSockets.Client.dll",
+            "size": 75928,
+            "hash": "9c21e9ac3caa811d28ec68b063079eef2cf3ae889855d1d989360f53994eca3e"
+        },
+        {
+            "path": "dotnet/System.Net.WebSockets.dll",
+            "size": 181400,
+            "hash": "2d92421344665a67179b8e0a6ad2fb74c233ec45673eb3cab1e20c1ccefd206c"
+        },
+        {
+            "path": "dotnet/System.Numerics.dll",
+            "size": 16000,
+            "hash": "fb8c60330243a677cff36e3ebcfd3dfb5ac0f2d739f92c7dcebcf5c8c9e62da2"
+        },
+        {
+            "path": "dotnet/System.Numerics.Vectors.dll",
+            "size": 16000,
+            "hash": "5b4fe8f00f2c18936ce3ba3c22ba351e0d886b6bf071bb19ea1deedce4d3624b"
+        },
+        {
+            "path": "dotnet/System.ObjectModel.dll",
+            "size": 90776,
+            "hash": "ee2a487cd7abe5e08207426240e5eb981902ea894baa6767a7f786be8311e538"
+        },
+        {
+            "path": "dotnet/System.Private.CoreLib.dll",
+            "size": 10631320,
+            "hash": "2caa46d2ae726e135592033b6c682232a08698c23dbd1a9207f86c4cca081ad7"
+        },
+        {
+            "path": "dotnet/System.Private.DataContractSerialization.dll",
+            "size": 2074256,
+            "hash": "913461fdca318c69540ec544619a52cf4865626dfd2054ebe075ecfa82bff1ea"
+        },
+        {
+            "path": "dotnet/System.Private.Uri.dll",
+            "size": 252568,
+            "hash": "4b80767452017da1726302df729d9918c95ba8b5b05ee75a4807b17d88ef96a6"
+        },
+        {
+            "path": "dotnet/System.Private.Xml.dll",
+            "size": 8504448,
+            "hash": "38a26c1f6510be0f2371fbdbcc590b3d44fdb2b76807785fddbe52336630f66a"
+        },
+        {
+            "path": "dotnet/System.Private.Xml.Linq.dll",
+            "size": 405144,
+            "hash": "5166bfe1a33746892b87f09ccad542396f9a23ed4a5e79427e3dfe764fc1ad42"
+        },
+        {
+            "path": "dotnet/System.Reflection.DispatchProxy.dll",
+            "size": 66200,
+            "hash": "86b297ae56ec792107f2649a4e5c54120064d88f40e5a4541331f653f7ac1e83"
+        },
+        {
+            "path": "dotnet/System.Reflection.dll",
+            "size": 16536,
+            "hash": "36194cb5f9821d7712e66c222e6a4d6de7557344ead607eea6a6ff55d8a0a4f1"
+        },
+        {
+            "path": "dotnet/System.Reflection.Emit.dll",
+            "size": 16024,
+            "hash": "06b2aab6e04ff1f2250c0636b90355d73e39e5a2b0ada6065b475282c28153e0"
+        },
+        {
+            "path": "dotnet/System.Reflection.Emit.ILGeneration.dll",
+            "size": 16000,
+            "hash": "59e813fa039d140323b7bc2e51def90aa141c7f02cf45b6cab45b9829db9b993"
+        },
+        {
+            "path": "dotnet/System.Reflection.Emit.Lightweight.dll",
+            "size": 16000,
+            "hash": "c63fbd51c1d794f1551e096a5a8adfccedfba4b6ee0b6aeaf966bf6ebb1a7223"
+        },
+        {
+            "path": "dotnet/System.Reflection.Extensions.dll",
+            "size": 15488,
+            "hash": "71caa3d1d16bf22ac4cd1672d200ace3225babce1e2e889200f15efa734b6222"
+        },
+        {
+            "path": "dotnet/System.Reflection.Metadata.dll",
+            "size": 1130648,
+            "hash": "695365a6fb1c1b7762ae925bcbb5bd2827ced11c750d15dc5f88218d6fc4d8df"
+        },
+        {
+            "path": "dotnet/System.Reflection.Primitives.dll",
+            "size": 16024,
+            "hash": "1df428d05437f42dc1ee52ef3be19a751cce5a577b130425c8137fade97c5ccc"
+        },
+        {
+            "path": "dotnet/System.Reflection.TypeExtensions.dll",
+            "size": 33432,
+            "hash": "5bd856cfa8f30beddf9db302f6acf851f63661c7c753b9088266f9ac8dd09973"
+        },
+        {
+            "path": "dotnet/System.Resources.Reader.dll",
+            "size": 15488,
+            "hash": "1cf8daf7b1d834d48e95af0e92d281ed18f0c40036008073ac61418f44b1c1a4"
+        },
+        {
+            "path": "dotnet/System.Resources.ResourceManager.dll",
+            "size": 16000,
+            "hash": "bef18f0cede69f1f3b889d7bf1bd00e90b7136cd9c4ce0d85fae23b6f952885c"
+        },
+        {
+            "path": "dotnet/System.Resources.Writer.dll",
+            "size": 45208,
+            "hash": "752f89c066fc0d872654c6501dd6b89fa6e1a4fb649ab19be00ac59a5d02052f"
+        },
+        {
+            "path": "dotnet/System.Runtime.CompilerServices.Unsafe.dll",
+            "size": 22680,
+            "hash": "1f1269f45ed627b6da1d02e668a5846fc8d89fd54ba541458fe3206cd261d4d3"
+        },
+        {
+            "path": "dotnet/System.Runtime.CompilerServices.VisualC.dll",
+            "size": 20120,
+            "hash": "a4645622db0fc9d3bc239b5136472c17ce738becfc8c9875dc9ccfd1c153e51a"
+        },
+        {
+            "path": "dotnet/System.Runtime.dll",
+            "size": 42624,
+            "hash": "5ee7ed5290d8b1f8e47854d4a9caeff68a503deeace7b36451988f80b5141504"
+        },
+        {
+            "path": "dotnet/System.Runtime.Extensions.dll",
+            "size": 18048,
+            "hash": "f17fe826509283f6bdef0789eec192fbc811da6a142b19f9e14e25a79d4c2403"
+        },
+        {
+            "path": "dotnet/System.Runtime.Handles.dll",
+            "size": 15488,
+            "hash": "581dd1b50b99f685b62f0cd79c7e0629b3841e371850686e78eb68d695e52633"
+        },
+        {
+            "path": "dotnet/System.Runtime.InteropServices.dll",
+            "size": 51864,
+            "hash": "833cb735ba01762c8ec501d20936081c0fd75f267f45b4fe3c86bfd0321885c6"
+        },
+        {
+            "path": "dotnet/System.Runtime.InteropServices.RuntimeInformation.dll",
+            "size": 31896,
+            "hash": "00b0f34e391f998e0df534d32e7abcb62d524e84bd3276c8526924231ee22d6a"
+        },
+        {
+            "path": "dotnet/System.Runtime.Intrinsics.dll",
+            "size": 16536,
+            "hash": "7345861db1327a1b748690e6952b1a153ef1340c36b9fb9390d149fe04148f85"
+        },
+        {
+            "path": "dotnet/System.Runtime.Loader.dll",
+            "size": 16000,
+            "hash": "4a3343c5602a5244883878dd2a2e3a354975094557be888b093e08255e3b802b"
+        },
+        {
+            "path": "dotnet/System.Runtime.Numerics.dll",
+            "size": 221848,
+            "hash": "19a0c0768273026e7cc01631ed0827665d1b603f10f536d786d8ab11b169b93b"
+        },
+        {
+            "path": "dotnet/System.Runtime.Serialization.dll",
+            "size": 17536,
+            "hash": "70757055150731e3451f81e22f5707b0bfdff98c267b9e5783e9d4a6cd60ee4d"
+        },
+        {
+            "path": "dotnet/System.Runtime.Serialization.Formatters.dll",
+            "size": 322200,
+            "hash": "33c6d92a36190e0d3abe51746c8828a189d594159a636ff88bf76f51b057a416"
+        },
+        {
+            "path": "dotnet/System.Runtime.Serialization.Json.dll",
+            "size": 16000,
+            "hash": "670e0c3a4969b800835b65780639ea85ef68a69c8f1b2d015863eec96c2a8f1c"
+        },
+        {
+            "path": "dotnet/System.Runtime.Serialization.Primitives.dll",
+            "size": 28824,
+            "hash": "871fb41960257b1d1dc6f87e00b5de822d9288c8b93e3f3e5b17bd25924bd80b"
+        },
+        {
+            "path": "dotnet/System.Runtime.Serialization.Xml.dll",
+            "size": 16512,
+            "hash": "47586d335a3dbcf691043df4670c741091b62b4f59e619f5a3cdc876eab08521"
+        },
+        {
+            "path": "dotnet/System.Security.AccessControl.dll",
+            "size": 215192,
+            "hash": "219a62e07ad0c1d56b1614d28b0b13bdbfbfcf6dadecf1e5ff69d858251dc3bb"
+        },
+        {
+            "path": "dotnet/System.Security.Claims.dll",
+            "size": 94360,
+            "hash": "18579e03cb56973cb460cbd7c501fa3aa246eedcc0f02b4f6775aff286db68c8"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.Algorithms.dll",
+            "size": 805016,
+            "hash": "667ef15b3831a6d7bc1a940911e428fe1344182d9fb14efb5d429107bda57d85"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.Cng.dll",
+            "size": 485528,
+            "hash": "a719d3969bf9b6dd451d66b7e046458ea945d8338b976e350c4b6813269c404c"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.Csp.dll",
+            "size": 189592,
+            "hash": "3b7a3937f3fb40061a0d6e38b3f493a337e300c92746b8d2fc7b8cf1d9b59a4c"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.Encoding.dll",
+            "size": 93848,
+            "hash": "dcc9b161cf56a2bb2bfaf847d81def41c4eb417fa96a5c79f984747849bb8877"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.OpenSsl.dll",
+            "size": 31872,
+            "hash": "e74084306323376bab22b4f878b2c9fdc12c43ed06653b3f9c73db56b3591145"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.Primitives.dll",
+            "size": 134808,
+            "hash": "a65f2dc2405b377aa9aecdb3e892adf3c8569ceb4452addc924c9b16045b0da6"
+        },
+        {
+            "path": "dotnet/System.Security.Cryptography.X509Certificates.dll",
+            "size": 486552,
+            "hash": "cfda448a05d9971cb03ae3fbdc4979b5e5651fd30b63557a2c74112900f82041"
+        },
+        {
+            "path": "dotnet/System.Security.dll",
+            "size": 18560,
+            "hash": "519f5338ea24e512a1d71fd96d18bacb85128fa094ba813317bb331b658bec2d"
+        },
+        {
+            "path": "dotnet/System.Security.Principal.dll",
+            "size": 15488,
+            "hash": "2f1b9586d961c3eb0159271013be873dfeec4589c0674262ebe229ee06985a42"
+        },
+        {
+            "path": "dotnet/System.Security.Principal.Windows.dll",
+            "size": 151704,
+            "hash": "6e25d5295c42307ec2df0bb2f141cecbdb7e3ea5dc35d063e9fe7fd514700f0b"
+        },
+        {
+            "path": "dotnet/System.Security.SecureString.dll",
+            "size": 15488,
+            "hash": "d70f379e07a8a54647ef157558b60de50ef6b4b0ad4abee41ad9c633e3d8fa6c"
+        },
+        {
+            "path": "dotnet/System.ServiceModel.Web.dll",
+            "size": 17536,
+            "hash": "ee7335cf0974cbea6d78768c524d5e7accd706cd99146f98727a457d207bd637"
+        },
+        {
+            "path": "dotnet/System.ServiceProcess.dll",
+            "size": 16512,
+            "hash": "0e2e25d61f605db206c1fb57c2011564599d6b4750bdcc9d44719f81223f25d3"
+        },
+        {
+            "path": "dotnet/System.Text.Encoding.CodePages.dll",
+            "size": 871056,
+            "hash": "ac1e98b77cec783c34593a42bbbc4b97bf46ce738aed4933b804ef917bf3066c"
+        },
+        {
+            "path": "dotnet/System.Text.Encoding.dll",
+            "size": 16000,
+            "hash": "09cc4ffec8ac09328c3c03964dfea531e8f5536cef566cff51fb7da50f885e7c"
+        },
+        {
+            "path": "dotnet/System.Text.Encoding.Extensions.dll",
+            "size": 16024,
+            "hash": "6ccaf501dc6e4b578fa8db6e8efdc549d405a63042ff916093bd8f84e8277032"
+        },
+        {
+            "path": "dotnet/System.Text.Encodings.Web.dll",
+            "size": 131224,
+            "hash": "276dfd56c6573b8e1f418c78043dc6606d986c66a1b78cf882c8d9aa7c51864e"
+        },
+        {
+            "path": "dotnet/System.Text.Json.dll",
+            "size": 1483928,
+            "hash": "b1f14f11dd6f2bdf15705fae316a945c9b97c5ce5da67c29bf998353287b76df"
+        },
+        {
+            "path": "dotnet/System.Text.RegularExpressions.dll",
+            "size": 529560,
+            "hash": "581ee84e5ca9e283bf1b61b94c495732153b5fbec98a51fc5d35c9865604ed0c"
+        },
+        {
+            "path": "dotnet/System.Threading.Channels.dll",
+            "size": 125080,
+            "hash": "52472cd978c808ebc3fd079f935cbc646b02c9eab41b175f68ca4e136037748e"
+        },
+        {
+            "path": "dotnet/System.Threading.dll",
+            "size": 80024,
+            "hash": "9ed389096339c7fd65a1b11b624aa72e939e23651d86bfc6a81227db7ac91ab0"
+        },
+        {
+            "path": "dotnet/System.Threading.Overlapped.dll",
+            "size": 16000,
+            "hash": "2385ca2d4d7df73888eb7b943402ee90d68b0cc99d03a02c760b1c23a49f40c6"
+        },
+        {
+            "path": "dotnet/System.Threading.Tasks.Dataflow.dll",
+            "size": 505496,
+            "hash": "7c9ec6a8d77f2a2e8aa1f146dd75c4e1f3dfeb9d7033f9f95fff84864fe2b73b"
+        },
+        {
+            "path": "dotnet/System.Threading.Tasks.dll",
+            "size": 17024,
+            "hash": "476884f230b4acb4ba86f24c8105c3076a5c30cce6b11275accf80c4e400a98f"
+        },
+        {
+            "path": "dotnet/System.Threading.Tasks.Extensions.dll",
+            "size": 16024,
+            "hash": "7f292c1e8845374d4d27650e96badf3e080c6b5cef0a7ee37b7217509f6b732b"
+        },
+        {
+            "path": "dotnet/System.Threading.Tasks.Parallel.dll",
+            "size": 138904,
+            "hash": "83b2c4b665b58f993d4abe80f0d26a9322f12b40f7d5f696392efb637fb3a3fb"
+        },
+        {
+            "path": "dotnet/System.Threading.Thread.dll",
+            "size": 16024,
+            "hash": "f11e17a820ccc7b084692c68411e1ffb6f506645d7994a956ccbd796abbb873f"
+        },
+        {
+            "path": "dotnet/System.Threading.ThreadPool.dll",
+            "size": 16016,
+            "hash": "718d35d92f5c055823d44599b0c049273fcd9d922eb46326b120a8d708fd6978"
+        },
+        {
+            "path": "dotnet/System.Threading.Timer.dll",
+            "size": 15488,
+            "hash": "32c4d5f583e36e0835d9898514615c43e58bfcf7af7301644f49a17d18b6ac46"
+        },
+        {
+            "path": "dotnet/System.Transactions.dll",
+            "size": 17048,
+            "hash": "ba6def1337ec434309b6a28a5653291f0cc9d411fc0de73c0783d3199c1fc24b"
+        },
+        {
+            "path": "dotnet/System.Transactions.Local.dll",
+            "size": 351384,
+            "hash": "a12ba56a76034dec5a5d4013556d49ae5f4ffafba9c78c08a9fec808aa26bd30"
+        },
+        {
+            "path": "dotnet/System.ValueTuple.dll",
+            "size": 15488,
+            "hash": "05f443ae382efffb5da640d55c7c334243b559de26349da1d6a0b40ce1c11f30"
+        },
+        {
+            "path": "dotnet/System.Web.dll",
+            "size": 16000,
+            "hash": "25b81b487b5b474e269cb4a7aeb75aeba0cb2ff9e72b2923e4bc0b8fb01af526"
+        },
+        {
+            "path": "dotnet/System.Web.HttpUtility.dll",
+            "size": 52880,
+            "hash": "8dbe2a8d794f0af632c49a8e9929cfedcc68ec4abf661a39b656974da9fb7c2c"
+        },
+        {
+            "path": "dotnet/System.Windows.dll",
+            "size": 16536,
+            "hash": "07ae7c534940c94625c7c8cd86e9eadc6fce3d750d308554edb4e24bf4587d93"
+        },
+        {
+            "path": "dotnet/System.Xml.dll",
+            "size": 24728,
+            "hash": "57af41b86e30d8ebac3be05c9d063e5371d62de703e10aaf5a187908ff8ae6c7"
+        },
+        {
+            "path": "dotnet/System.Xml.Linq.dll",
+            "size": 16512,
+            "hash": "a5ee9219f397cb0de7940c872c0f40e54d04a1dade86e9322559009dc48fcb88"
+        },
+        {
+            "path": "dotnet/System.Xml.ReaderWriter.dll",
+            "size": 22144,
+            "hash": "2f5d5b42b268f17a68657535cfba174b350a39c0d70b8556de67aaaa6aaa828b"
+        },
+        {
+            "path": "dotnet/System.Xml.Serialization.dll",
+            "size": 16512,
+            "hash": "c61362868eaaee5d22d2da10502fd751a0799647ea4a6c83fb1e4d994757b7b7"
+        },
+        {
+            "path": "dotnet/System.Xml.XDocument.dll",
+            "size": 16000,
+            "hash": "f9a5602336e6f819f2e502670075b93ac9061b92da7f43caa6fc5ad8f3cd9395"
+        },
+        {
+            "path": "dotnet/System.Xml.XmlDocument.dll",
+            "size": 16000,
+            "hash": "ea510537bddc1f5b5f85b41d94300b4189d13f5605faad1a5bfecb04c9c45a38"
+        },
+        {
+            "path": "dotnet/System.Xml.XmlSerializer.dll",
+            "size": 18048,
+            "hash": "d060142ed17394f97e4536e06d466a39fcf2bfa85c0280e8997605489854d782"
+        },
+        {
+            "path": "dotnet/System.Xml.XPath.dll",
+            "size": 16000,
+            "hash": "d4e78592333a130250e9fec15d1fea2a768b9c0fd25a7aded3ec428aa1692f8f"
+        },
+        {
+            "path": "dotnet/System.Xml.XPath.XDocument.dll",
+            "size": 18072,
+            "hash": "b763654d251f0e7b32330ddcac46dff190d4eb784bb750bea7651b7c7132abe5"
+        },
+        {
+            "path": "dotnet/WindowsBase.dll",
+            "size": 17032,
+            "hash": "b3e6df643dd07a3bdde2b6419da7e7ee49c2c01bdce7c758c9abc20b8b8a6296"
+        },
+        {
+            "path": "HeavyMod_Package.zip",
+            "size": 116529991,
+            "hash": "6e6d72ccc527680783a2bc194b249468cf25617555dbe983550747fd03d8e174"
+        },
+        {
+            "path": "HeavyRustLauncher.exe",
+            "size": 2074112,
+            "hash": "a01f8ed0ce097e03a92be4587dd20d4a4a19a79a5e9e786afc9d841586930cb2"
+        },
+        {
+            "path": "RustClient_Data/Plugins/x86_64/steam_appid.txt",
+            "size": 3,
+            "hash": "ddfe0e8d462af661f81db36589c39882dc0f2330785b5d80cd34f2f520ad618f"
+        },
+        {
+            "path": "steam_appid.txt",
+            "size": 3,
+            "hash": "ddfe0e8d462af661f81db36589c39882dc0f2330785b5d80cd34f2f520ad618f"
+        },
+        {
+            "path": "version.dll",
+            "size": 26112,
+            "hash": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
+        },
+        {
+            "path": "winhttp.dll",
+            "size": 26112,
+            "hash": "8c6cdbc38836dee87e3368f5de1994d7c0ccebf29e4ce7aba3c0981f9375412c"
+        }
+    ]
 }

@@ -1,11 +1,11 @@
 {
-    "version": "1.1.05",
+    "version": "1.1.06",
     "launcherVersion": "1.1.05",
     "baseUrl": "http://5.83.140.94/updates/files/",
     "package": {
         "path": "HeavyMod_Package.zip",
-        "size": 116529991,
-        "hash": "6e6d72ccc527680783a2bc194b249468cf25617555dbe983550747fd03d8e174"
+        "size": 116530101,
+        "hash": "e98b75033c68d01cfbcc7c640cdbc2ca539cb3a1d354953346ac50717f3512d8"
     },
     "files": [
         {
@@ -1065,8 +1065,8 @@
         },
         {
             "path": "BepInEx/plugins/HeavyMod.dll",
-            "size": 45893120,
-            "hash": "dddfdd3b3e2117459c260fab9d1103b0b4aafb99569b36a0efe7be2644c8c1d1"
+            "size": 45893632,
+            "hash": "4fa3a33cabad60efac6daaaac57368dbc6024f04e08708a0b26dcfe0a266de96"
         },
         {
             "path": "BepInEx/unity-libs/2022.3.41.zip",
@@ -2345,8 +2345,8 @@
         },
         {
             "path": "HeavyMod_Package.zip",
-            "size": 116529991,
-            "hash": "6e6d72ccc527680783a2bc194b249468cf25617555dbe983550747fd03d8e174"
+            "size": 116530101,
+            "hash": "e98b75033c68d01cfbcc7c640cdbc2ca539cb3a1d354953346ac50717f3512d8"
         },
         {
             "path": "HeavyRustLauncher.exe",

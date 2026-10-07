@@ -1,11 +1,11 @@
 {
-    "version": "1.1.06",
+    "version": "1.1.07",
     "launcherVersion": "1.1.05",
     "baseUrl": "http://5.83.140.94/updates/files/",
     "package": {
         "path": "HeavyMod_Package.zip",
-        "size": 116530101,
-        "hash": "e98b75033c68d01cfbcc7c640cdbc2ca539cb3a1d354953346ac50717f3512d8"
+        "size": 116529786,
+        "hash": "ce7edde5047b5a51ab1931916046e12217c755653abdbee5f56bc481770d4e77"
     },
     "files": [
         {
@@ -30,8 +30,8 @@
         },
         {
             "path": "BepInEx/config/net.rust.heavymod.cfg",
-            "size": 14456,
-            "hash": "a23364a25171c1b6a7f2c8c7297786432d27508bdaa126458c966c64978a7e53"
+            "size": 14454,
+            "hash": "aed995271cd2d7314beb6dda5af55e30af7007e185eb3c4f9f1c2e0d5a3e0584"
         },
         {
             "path": "BepInEx/core/0Harmony.dll",
@@ -1065,8 +1065,8 @@
         },
         {
             "path": "BepInEx/plugins/HeavyMod.dll",
-            "size": 45893632,
-            "hash": "4fa3a33cabad60efac6daaaac57368dbc6024f04e08708a0b26dcfe0a266de96"
+            "size": 45893120,
+            "hash": "09d2a3ff8b27967f00b1b4d2e17e4b69b5238ed0a23e54d78f1a8820907cd729"
         },
         {
             "path": "BepInEx/unity-libs/2022.3.41.zip",
@@ -1405,8 +1405,8 @@
         },
         {
             "path": "doorstop_config.ini",
-            "size": 1682,
-            "hash": "bc28065692666256e435f7083882f54455765e72c502adc5981a3fe49c0e59fd"
+            "size": 210,
+            "hash": "65121dbfc6bc36a85f7a2889527a42fbec5bd41d7080083db6ac49f7550c92ff"
         },
         {
             "path": "dotnet/.version",
@@ -2345,8 +2345,8 @@
         },
         {
             "path": "HeavyMod_Package.zip",
-            "size": 116530101,
-            "hash": "e98b75033c68d01cfbcc7c640cdbc2ca539cb3a1d354953346ac50717f3512d8"
+            "size": 116529786,
+            "hash": "ce7edde5047b5a51ab1931916046e12217c755653abdbee5f56bc481770d4e77"
         },
         {
             "path": "HeavyRustLauncher.exe",

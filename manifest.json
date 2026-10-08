@@ -1,11 +1,11 @@
 {
-    "version": "1.1.07",
+    "version": "1.1.08",
     "launcherVersion": "1.1.05",
     "baseUrl": "http://5.83.140.94/updates/files/",
     "package": {
         "path": "HeavyMod_Package.zip",
-        "size": 116529786,
-        "hash": "ce7edde5047b5a51ab1931916046e12217c755653abdbee5f56bc481770d4e77"
+        "size": 118030407,
+        "hash": "c1e030fff119ee4754687cbeb8cc1f41002817274b451b906ba0ee971d4be3cb"
     },
     "files": [
         {
@@ -30,8 +30,8 @@
         },
         {
             "path": "BepInEx/config/net.rust.heavymod.cfg",
-            "size": 14454,
-            "hash": "aed995271cd2d7314beb6dda5af55e30af7007e185eb3c4f9f1c2e0d5a3e0584"
+            "size": 14453,
+            "hash": "043ce38b328ea8a2854f0ba606acff35d83375e322061d1bc0f83357cb8e6747"
         },
         {
             "path": "BepInEx/core/0Harmony.dll",
@@ -1065,8 +1065,8 @@
         },
         {
             "path": "BepInEx/plugins/HeavyMod.dll",
-            "size": 45893120,
-            "hash": "09d2a3ff8b27967f00b1b4d2e17e4b69b5238ed0a23e54d78f1a8820907cd729"
+            "size": 48478208,
+            "hash": "49e5068e51bf1d65ccb1ee7a1336bfd68bd62d90c98c51d36efb5f2774651bcb"
         },
         {
             "path": "BepInEx/unity-libs/2022.3.41.zip",
@@ -2345,8 +2345,8 @@
         },
         {
             "path": "HeavyMod_Package.zip",
-            "size": 116529786,
-            "hash": "ce7edde5047b5a51ab1931916046e12217c755653abdbee5f56bc481770d4e77"
+            "size": 118030407,
+            "hash": "c1e030fff119ee4754687cbeb8cc1f41002817274b451b906ba0ee971d4be3cb"
         },
         {
             "path": "HeavyRustLauncher.exe",
